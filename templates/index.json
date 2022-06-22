@@ -1,0 +1,261 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "title": "Slide 1"
+          }
+        },
+        "slide-2": {
+          "type": "image",
+          "settings": {
+            "title": "Slide 2"
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide-2"
+      ],
+      "settings": {
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "collection-1"
+      ],
+      "settings": {
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Text 1"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Text 2"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2"
+      ],
+      "settings": {
+      }
+    },
+    "shop-the-look": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look-1": {
+          "type": "look",
+          "settings": {
+            "dot_type": "inverted",
+            "product_1_horizontal_position": 41,
+            "product_1_vertical_position": 41,
+            "product_2_horizontal_position": 46,
+            "product_2_vertical_position": 64,
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50
+          }
+        }
+      },
+      "block_order": [
+        "look-1"
+      ],
+      "settings": {
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+      }
+    },
+    "image-with-text-block": {
+      "type": "image-with-text-block",
+      "settings": {
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "layout": "collage"
+      }
+    },
+    "timeline": {
+      "type": "timeline",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "label": "2000"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "label": "2010"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "label": "2020"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3"
+      ],
+      "settings": {
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-1"
+      ],
+      "settings": {
+      }
+    },
+    "featured-product": {
+      "type": "featured-product",
+      "blocks": {
+        "variant-picker": {
+          "type": "variant_picker",
+          "settings": {
+          }
+        },
+        "quantity-selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy-buttons": {
+          "type": "buy_buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "variant-picker",
+        "quantity-selector",
+        "buy-buttons"
+      ],
+      "settings": {
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "title": "Contact us",
+            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured-collections",
+    "image-with-text",
+    "shop-the-look",
+    "blog-posts",
+    "image-with-text-block",
+    "collection-list",
+    "testimonials",
+    "timeline",
+    "featured-product",
+    "text-with-icons",
+    "newsletter"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "blog-post-banner": {
+      "type": "blog-post-banner",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+      }
+    },
+    "blog-post-prev-next": {
+      "type": "blog-post-prev-next",
+      "settings": {
+      }
+    },
+    "blog-post-comments": {
+      "type": "blog-post-comments",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "blog-post-banner",
+    "main",
+    "blog-post-prev-next",
+    "blog-post-comments"
+  ]
+}
