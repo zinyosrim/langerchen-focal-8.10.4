@@ -1,261 +1,253 @@
 {
   "sections": {
-    "slideshow": {
+    "16540015621920555f": {
       "type": "slideshow",
       "blocks": {
-        "slide-1": {
+        "16540015625f72feea-0": {
           "type": "image",
           "settings": {
-            "title": "Slide 1"
-          }
-        },
-        "slide-2": {
-          "type": "image",
-          "settings": {
-            "title": "Slide 2"
+            "image": "shopify:\/\/shop_images\/02_5.jpg",
+            "split_image": "shopify:\/\/shop_images\/02_4.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide-1",
-        "slide-2"
+        "16540015625f72feea-0"
       ],
       "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 4,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "16540023939ffb16a4": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Wherever you go – consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165400323037662882": {
+      "type": "slideshow",
+      "blocks": {
+        "16540032303a0869c2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/04.jpg",
+            "split_image": "shopify:\/\/shop_images\/04_2.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "Organic Cotton Twill",
+            "button_1_text": "Discover women",
+            "button_1_link": "",
+            "button_2_text": "Discover men",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "16540032303a0869c2-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
       }
     },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
+        "be546bd2-bb9d-40ac-a655-5b0a9777b40f": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy-forever",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
         "collection-1": {
           "type": "collection",
           "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "tab_label": "Text 1"
+            "collection": "navy-forever-women",
+            "label": "Women",
+            "button_text": "View all",
+            "button_url": ""
           }
         },
-        "item-2": {
-          "type": "item",
+        "b6818d8e-6d6c-4af2-b2ec-e6c13749bef8": {
+          "type": "collection",
           "settings": {
-            "tab_label": "Text 2"
+            "collection": "navy-forever",
+            "label": "Men",
+            "button_text": "View all",
+            "button_url": ""
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2"
+        "be546bd2-bb9d-40ac-a655-5b0a9777b40f",
+        "collection-1",
+        "b6818d8e-6d6c-4af2-b2ec-e6c13749bef8"
       ],
       "settings": {
+        "subheading": "",
+        "title": "Navy forever – timeless for ever.",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "shop-the-look": {
       "type": "shop-the-look",
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "165400454278f2b729": {
+      "type": "image-with-text",
       "blocks": {
-        "look-1": {
-          "type": "look",
+        "165400454204b61f0d-0": {
+          "type": "item",
           "settings": {
-            "dot_type": "inverted",
-            "product_1_horizontal_position": 41,
-            "product_1_vertical_position": 41,
-            "product_2_horizontal_position": 46,
-            "product_2_vertical_position": 64,
-            "product_3_horizontal_position": 62,
-            "product_3_vertical_position": 50
+            "image": "shopify:\/\/shop_images\/05_2.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Wie bitte? Wherever you go – Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "look-1"
+        "165400454204b61f0d-0"
       ],
       "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 3,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-      }
-    },
-    "image-with-text-block": {
-      "type": "image-with-text-block",
-      "settings": {
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
+    "1654004727a2c1a36a": {
+      "type": "image-with-text",
       "blocks": {
-        "collection-1": {
-          "type": "collection",
+        "1654004727e6bd4231-0": {
+          "type": "item",
           "settings": {
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/06.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "LangerChen – wie wir arbeiten und warum wir so arbeiten.",
+            "content": "",
+            "button_text": "mehr erfahren",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
+        "1654004727e6bd4231-0"
       ],
       "settings": {
-        "layout": "collage"
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "timeline": {
-      "type": "timeline",
+    "16540063030cfed742": {
+      "type": "image-with-text",
       "blocks": {
-        "item-1": {
+        "1654006303ea728e72-0": {
           "type": "item",
           "settings": {
-            "label": "2000"
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "label": "2010"
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "label": "2020"
+            "image": "shopify:\/\/shop_images\/07.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "LangerChen ist als nachhaltiges Modelabel gegründet worden. Wir setzen uns von der ersten Stunde an für eine umweltfreundliche Kollektion ein. Ein Wandel der Branche liegt uns sehr am Herzen.",
+            "content": "",
+            "button_text": "mehr erfahren",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2",
-        "item-3"
+        "1654006303ea728e72-0"
       ],
       "settings": {
-      }
-    },
-    "testimonials": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "testimonial-1"
-      ],
-      "settings": {
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "variant-picker": {
-          "type": "variant_picker",
-          "settings": {
-          }
-        },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "variant-picker",
-        "quantity-selector",
-        "buy-buttons"
-      ],
-      "settings": {
-      }
-    },
-    "text-with-icons": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-box",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-phone",
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.<\/p>"
-          }
-        },
-        "item-4": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-email",
-            "title": "Contact us",
-            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "item-4"
-      ],
-      "settings": {
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
-    "slideshow",
+    "16540015621920555f",
+    "16540023939ffb16a4",
+    "165400323037662882",
     "featured-collections",
-    "image-with-text",
     "shop-the-look",
-    "blog-posts",
-    "image-with-text-block",
-    "collection-list",
-    "testimonials",
-    "timeline",
-    "featured-product",
-    "text-with-icons",
-    "newsletter"
+    "165400454278f2b729",
+    "1654004727a2c1a36a",
+    "16540063030cfed742"
   ]
 }
