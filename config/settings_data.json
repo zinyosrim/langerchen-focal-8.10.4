@@ -77,14 +77,16 @@
       "header": {
         "type": "header",
         "blocks": {
-          "d8438a06-b3b0-4e05-8c15-ce10749bce67": {
+          "1109f137-1b4c-4bc6-b1c8-103c77b6fc6a": {
             "type": "mega_menu",
             "settings": {
-              "menu_item": "",
+              "menu_item": "Damen",
               "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/Header_Desktop_09.06._1_02cef332-b08c-4254-b21e-e5ae7fe7d6c4.jpg",
               "image_1_heading": "",
               "image_1_text": "",
               "image_1_link": "",
+              "image_2": "shopify:\/\/shop_images\/coated_linen_desktop.jpg",
               "image_2_heading": "",
               "image_2_text": "",
               "image_2_link": "",
@@ -102,10 +104,10 @@
               "image_6_link": ""
             }
           },
-          "d2f99839-c735-495d-a293-f0a986e600e5": {
+          "45bb2d11-82f3-4ec1-9fe1-7e9bb8ce69ab": {
             "type": "mega_menu",
             "settings": {
-              "menu_item": "",
+              "menu_item": "Herren",
               "images_position": "right",
               "image_1_heading": "",
               "image_1_text": "",
@@ -129,21 +131,21 @@
           }
         },
         "block_order": [
-          "d8438a06-b3b0-4e05-8c15-ce10749bce67",
-          "d2f99839-c735-495d-a293-f0a986e600e5"
+          "1109f137-1b4c-4bc6-b1c8-103c77b6fc6a",
+          "45bb2d11-82f3-4ec1-9fe1-7e9bb8ce69ab"
         ],
         "settings": {
           "enable_sticky_header": true,
           "logo": "shopify:\/\/shop_images\/LC_Logo_Web_100px.png",
           "logo_max_width": 200,
           "mobile_logo_max_width": 85,
-          "navigation_menu": "top-navigation",
+          "navigation_menu": "haupt-navigation",
           "sidebar_navigation_menu": "",
           "header_layout": "logo_center_navigation_inline",
           "show_icons": true,
           "reduce_desktop_padding": true,
           "show_locale_selector": true,
-          "show_country_selector": false,
+          "show_country_selector": true,
           "enable_transparent_header": false,
           "transparent_header_text_color": "#ffffff",
           "search_menu": ""

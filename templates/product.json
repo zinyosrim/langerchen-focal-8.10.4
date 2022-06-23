@@ -3,41 +3,102 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "variant_picker": {
-          "type": "variant_picker",
+        "c3f0a9be-3421-4843-a240-bdcf5d2b66ce": {
+          "type": "description",
           "settings": {
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
+        "variant_picker": {
+          "type": "variant_picker",
           "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
         }
       },
       "block_order": [
+        "c3f0a9be-3421-4843-a240-bdcf5d2b66ce",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons"
       ],
       "settings": {
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
       }
     },
     "product-content": {
       "type": "product-content",
       "blocks": {
-        "description": {
-          "type": "description",
+        "89edbee5-20cf-4ea3-8170-0839a411a910": {
+          "type": "content",
           "settings": {
+            "title": "Style",
+            "content": "<p>style info<\/p>",
+            "page": ""
+          }
+        },
+        "25a7c6da-0207-4d68-a6dc-7aeda2c527eb": {
+          "type": "content",
+          "settings": {
+            "title": "Details",
+            "content": "<p>Details tex<\/p>",
+            "page": ""
+          }
+        },
+        "2c4e1fd1-f098-412b-ad1a-4c57901961cc": {
+          "type": "content",
+          "settings": {
+            "title": "Material & Eco",
+            "content": "<p>Material & Eco Text<\/p>",
+            "page": ""
+          }
+        },
+        "28945b40-8253-4ad5-9c8a-125012c0a2cd": {
+          "type": "content",
+          "settings": {
+            "title": "Care",
+            "content": "<p>Care Text<\/p>",
+            "page": ""
+          }
+        },
+        "4b2a74fa-a29b-4c35-a8e6-9fde9d19cde9": {
+          "type": "content",
+          "settings": {
+            "title": "Versand & Retouren",
+            "content": "",
+            "page": "versand-retouren"
           }
         }
       },
       "block_order": [
-        "description"
+        "89edbee5-20cf-4ea3-8170-0839a411a910",
+        "25a7c6da-0207-4d68-a6dc-7aeda2c527eb",
+        "2c4e1fd1-f098-412b-ad1a-4c57901961cc",
+        "28945b40-8253-4ad5-9c8a-125012c0a2cd",
+        "4b2a74fa-a29b-4c35-a8e6-9fde9d19cde9"
       ],
       "settings": {
       }
@@ -45,6 +106,14 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
