@@ -4584,7 +4584,12 @@
             parentElement.removeEventListener("mouseleave", leaveListener);
           }
         };
+        const leaveDocumentListener = () => {
+          this.closeDropdown(parentElement);
+          document.documentElement.removeEventListener("mouseleave", leaveDocumentListener);
+        };
         parentElement.addEventListener("mouseleave", leaveListener);
+        document.documentElement.addEventListener("mouseleave", leaveDocumentListener);
         openingTimeout = null;
         this.dispatchEvent(new CustomEvent("desktop-nav:dropdown:open", { bubbles: true }));
       }, 100);

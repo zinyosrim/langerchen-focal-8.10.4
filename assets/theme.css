@@ -10066,7 +10066,7 @@ input:checked + .popover__choice-label::after,
 }
 .image-with-text {
   /* Thanks to the ratio of the image and the height of the div we can calculate the height taken by the image */
-  --image-height: calc((100vw - var(--container-gutter) * 4) * (1.0 / var(--image-aspect-ratio)));
+  --image-height: min(var(--image-max-height), (100vw - var(--container-gutter) * 4) * (1.0 / var(--image-aspect-ratio)));
 
   position: relative;
   display: block;
@@ -10096,9 +10096,13 @@ input:checked + .popover__choice-label::after,
 }
 
 .image-with-text--overlap-text::before {
+  --image-height-difference: calc(100% - var(--image-height));
+  --image-height-difference-abs: max(var(--image-height-difference), -1*var(--image-height-difference));
+
   top: auto;
+
   bottom: 0;
-  height: calc(100% - var(--image-height)); /* When we overlap the text we actually take the full height minus image height */
+  height: var(--image-height-difference-abs); /* When we overlap the text we actually take the full height minus image height */
 }
 
 .image-with-text__image-wrapper {
@@ -10230,8 +10234,6 @@ input:checked + .popover__choice-label::after,
 
 @media screen and (min-width: 741px) and (max-width: 999px) {
   .image-with-text {
-    --image-height: calc((100vw - var(--container-gutter) * 2 - (var(--grid-column-width) + var(--grid-gap)) * 4) * (1.0 / var(--image-aspect-ratio)));
-
     padding: var(--vertical-breather) calc((var(--grid-column-width) + var(--grid-gap)) * 2);
   }
 
@@ -14099,6 +14101,12 @@ shopify-payment-terms {
 
 .slideshow--fit {
   --slideshow-min-height: calc(var(--window-height) - var(--header-height, 0px) * (-1 * (var(--enable-transparent-header) - 1)) - var(--announcement-bar-height, 0px));
+}
+
+@supports (min-height: 100svh) {
+  .slideshow--fit {
+    --slideshow-min-height: calc(100svh - var(--header-height, 0px) * (-1 * (var(--enable-transparent-header) - 1)) - var(--announcement-bar-height, 0px));
+  }
 }
 
 .slideshow,

@@ -52,38 +52,17 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "165400323037662882": {
-      "type": "slideshow",
-      "blocks": {
-        "16540032303a0869c2-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/04.jpg",
-            "split_image": "shopify:\/\/shop_images\/04_2.jpg",
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "Organic Cotton Twill",
-            "button_1_text": "Discover women",
-            "button_1_link": "",
-            "button_2_text": "Discover men",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10
-          }
-        }
-      },
-      "block_order": [
-        "16540032303a0869c2-0"
-      ],
+    "165649830741e02fac": {
+      "type": "custom-html",
+      "disabled": true,
       "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n\np {\nfont-size: 3rem;\nfont-weight: 300;\ntext-align: left;\nwidth: 58%;\nline-height: 1.2;\nletter-spacing: -.8px;\n}\n@media screen and (max-width: 799px) {\np {\nwidth: fit-content;\n}\n}\n\n<\/style><p>At vero eos et\naccusam et justo duo dolores et\nea rebum.\nWie bitte? Wherever you go –\nLorem ipsum dolor sit amet,\nconsetetur sadipscing elitr, sed\ndiam nonumy eirmod tempor<\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "featured-collections": {
@@ -136,11 +115,98 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "165400323037662882": {
+      "type": "slideshow",
+      "blocks": {
+        "16540032303a0869c2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/04.jpg",
+            "split_image": "shopify:\/\/shop_images\/04_2.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "Organic Cotton Twill",
+            "button_1_text": "Discover women",
+            "button_1_link": "",
+            "button_2_text": "Discover men",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "16540032303a0869c2-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
     "shop-the-look": {
       "type": "shop-the-look",
       "settings": {
         "reveal_on_scroll": true,
         "label": "Shop the looks"
+      }
+    },
+    "1656504734b15010e4": {
+      "type": "featured-product",
+      "blocks": {
+        "1656504733bfa00d41-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "1656504733bfa00d41-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1656504733bfa00d41-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "1656504733bfa00d41-0",
+        "1656504733bfa00d41-1",
+        "1656504733bfa00d41-2"
+      ],
+      "settings": {
+        "product": "c035ws01-langerchen-classical-coat-ii-carbon",
+        "subheading": "Subheading",
+        "title": "Featured product",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "165400454278f2b729": {
@@ -175,79 +241,50 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "1654004727a2c1a36a": {
-      "type": "image-with-text",
+    "16565042244340630b": {
+      "type": "slideshow",
       "blocks": {
-        "1654004727e6bd4231-0": {
-          "type": "item",
+        "165650422408e0b47d-0": {
+          "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/06.jpg",
-            "tab_label": "Item",
+            "split_image": "shopify:\/\/shop_images\/07.jpg",
+            "text_position": "middle_center",
             "subheading": "",
-            "title": "LangerChen – wie wir arbeiten und warum wir so arbeiten.",
-            "content": "",
-            "button_text": "mehr erfahren",
-            "button_link": ""
+            "title": "",
+            "button_1_text": "Wie wir arbeiten",
+            "button_1_link": "",
+            "button_2_text": "Veranwortung, die wir haben",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#9c9e9f",
+            "button_text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "1654004727e6bd4231-0"
+        "165650422408e0b47d-0"
       ],
       "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "16540063030cfed742": {
-      "type": "image-with-text",
-      "blocks": {
-        "1654006303ea728e72-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/07.jpg",
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "LangerChen ist als nachhaltiges Modelabel gegründet worden. Wir setzen uns von der ersten Stunde an für eine umweltfreundliche Kollektion ein. Ein Wandel der Branche liegt uns sehr am Herzen.",
-            "content": "",
-            "button_text": "mehr erfahren",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1654006303ea728e72-0"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "right",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
     "16540015621920555f",
     "16540023939ffb16a4",
-    "165400323037662882",
+    "165649830741e02fac",
     "featured-collections",
+    "165400323037662882",
     "shop-the-look",
+    "1656504734b15010e4",
     "165400454278f2b729",
-    "1654004727a2c1a36a",
-    "16540063030cfed742"
+    "16565042244340630b"
   ]
 }

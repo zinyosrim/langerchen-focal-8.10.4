@@ -76,7 +76,7 @@
   <div {% if is_boxed %}class="container"{% endif %}>
     {%- assign first_block = section.blocks.first -%}
 
-    <image-with-text {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="image-with-text {% if is_boxed %}image-with-text--boxed{% endif %} {% if section.settings.image_position == 'right' %}image-with-text--reverse{% endif %} image-with-text--overlap-{{ section.settings.background_overlap }}" style="--image-aspect-ratio: {{ first_block.settings.image.aspect_ratio | default: 1 }}">
+    <image-with-text {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="image-with-text {% if is_boxed %}image-with-text--boxed{% endif %} {% if section.settings.image_position == 'right' %}image-with-text--reverse{% endif %} image-with-text--overlap-{{ section.settings.background_overlap }}" style="--image-aspect-ratio: {{ first_block.settings.image.aspect_ratio | default: 1 }}; --image-max-height: {{ first_block.settings.image.height }}px">
       <div class="{% unless is_boxed %}container{% endunless %}">
         <div class="image-with-text__wrapper">
           {%- assign first_image_aspect_ratio = first_block.settings.image.aspect_ratio | default: 1 -%}
