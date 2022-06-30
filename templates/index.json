@@ -65,10 +65,10 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
+    "1656592756dee382b0": {
+      "type": "dc-featured-collections",
       "blocks": {
-        "be546bd2-bb9d-40ac-a655-5b0a9777b40f": {
+        "16565927560976ad4d-0": {
           "type": "collection",
           "settings": {
             "collection": "navy-forever",
@@ -77,33 +77,33 @@
             "button_url": ""
           }
         },
-        "collection-1": {
+        "43896fc7-8050-4395-934c-68e0a43b0c03": {
           "type": "collection",
           "settings": {
             "collection": "navy-forever-women",
             "label": "Women",
-            "button_text": "View all",
+            "button_text": "",
             "button_url": ""
           }
         },
-        "b6818d8e-6d6c-4af2-b2ec-e6c13749bef8": {
+        "9eea40b1-d6e0-452b-8398-df690f218136": {
           "type": "collection",
           "settings": {
-            "collection": "navy-forever",
-            "label": "Men",
-            "button_text": "View all",
+            "collection": "navy-forever-women",
+            "label": "Women",
+            "button_text": "",
             "button_url": ""
           }
         }
       },
       "block_order": [
-        "be546bd2-bb9d-40ac-a655-5b0a9777b40f",
-        "collection-1",
-        "b6818d8e-6d6c-4af2-b2ec-e6c13749bef8"
+        "16565927560976ad4d-0",
+        "43896fc7-8050-4395-934c-68e0a43b0c03",
+        "9eea40b1-d6e0-452b-8398-df690f218136"
       ],
       "settings": {
         "subheading": "",
-        "title": "Navy forever – timeless for ever.",
+        "title": "Navy style",
         "content": "",
         "products_count": 4,
         "products_per_row": 4,
@@ -149,64 +149,52 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "settings": {
-        "reveal_on_scroll": true,
-        "label": "Shop the looks"
-      }
-    },
-    "1656504734b15010e4": {
-      "type": "featured-product",
+    "165659271380adfa58": {
+      "type": "dc-featured-product",
       "blocks": {
-        "1656504733bfa00d41-0": {
-          "type": "variant_picker",
+        "5688e17c-6e99-49ff-a3ce-a8d018691d65": {
+          "type": "text",
           "settings": {
-            "hide_sold_out_variants": false,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
+            "text": "<p>Australian eco-wool<\/p>"
           }
         },
-        "1656504733bfa00d41-1": {
-          "type": "quantity_selector",
+        "fd3cb2a3-4ae7-4a5a-8a9f-e3780bab50fb": {
+          "type": "text",
           "settings": {
+            "text": "<p>GOTS certified<\/p>"
           }
         },
-        "1656504733bfa00d41-2": {
-          "type": "buy_buttons",
+        "b7037ba6-da67-4d1e-b7eb-4073c0d84b03": {
+          "type": "text",
           "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "rgba(0,0,0,0)",
-            "atc_button_text_color": "rgba(0,0,0,0)",
-            "buy_now_button_background": "rgba(0,0,0,0)",
-            "buy_now_button_text_color": "rgba(0,0,0,0)"
+            "text": "<p>Perfect piece for the week-end or with a cool business suit<\/p>"
+          }
+        },
+        "6f545f70-045d-4c36-8c71-e2333fe6281d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Handwash or use the wool-program<\/p>"
           }
         }
       },
       "block_order": [
-        "1656504733bfa00d41-0",
-        "1656504733bfa00d41-1",
-        "1656504733bfa00d41-2"
+        "5688e17c-6e99-49ff-a3ce-a8d018691d65",
+        "fd3cb2a3-4ae7-4a5a-8a9f-e3780bab50fb",
+        "b7037ba6-da67-4d1e-b7eb-4073c0d84b03",
+        "6f545f70-045d-4c36-8c71-e2333fe6281d"
       ],
       "settings": {
         "product": "c035ws01-langerchen-classical-coat-ii-carbon",
         "subheading": "Subheading",
-        "title": "Featured product",
-        "show_vendor": false,
-        "show_sku": false,
-        "show_taxes_included": false,
-        "show_product_rating": false,
-        "show_share_buttons": false,
-        "help_page": "",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "show_thumbnails_on_mobile": false,
-        "desktop_thumbnails_position": "bottom",
-        "transition_effect": "slide",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
+        "title": "Featured product"
+      }
+    },
+    "shop-the-look": {
+      "type": "shop-the-look",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
       }
     },
     "165400454278f2b729": {
@@ -249,7 +237,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/06.jpg",
             "split_image": "shopify:\/\/shop_images\/07.jpg",
-            "text_position": "middle_center",
+            "text_position": "bottom_center",
             "subheading": "",
             "title": "",
             "button_1_text": "Wie wir arbeiten",
@@ -280,10 +268,10 @@
     "16540015621920555f",
     "16540023939ffb16a4",
     "165649830741e02fac",
-    "featured-collections",
+    "1656592756dee382b0",
     "165400323037662882",
+    "165659271380adfa58",
     "shop-the-look",
-    "1656504734b15010e4",
     "165400454278f2b729",
     "16565042244340630b"
   ]

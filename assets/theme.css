@@ -15007,3 +15007,8 @@ shopify-payment-terms {
     scroll-snap-align: center;
   }
 }
+
+/* Custom Styles Dual Citizen 2022 */
+div.shopify-section--rich-text {
+  margin-bottom: 6rem;
+}
