@@ -1,0 +1,54 @@
+{%- capture product_form_id -%}product-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
+
+<style>
+  ul.dc-featured-product-properties {
+    font-size: 3rem;
+    font-weight: 300; 
+  }
+
+  @media screen and (min-width: 1000px) {
+  .product {
+      align-items: center;
+  }
+}
+@media screen and (min-width: 1400px) {
+[dir=ltr] .product__media {
+    padding-left: 108px;
+}
+}
+
+</style>
+
+<div class="product__info">
+
+
+  {%- if section.settings.subheading != blank -%}
+    <h2 class="heading heading--small">{{ section.settings.subheading | escape }}</h2>
+  {%- endif -%}
+
+  {%- if section.settings.title != blank -%}
+    <h3 class="heading h2">{{ product.title }}</h3>
+    
+  {%- endif -%}
+
+
+
+  <ul class = 'dc-featured-product-properties'>
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'text' %}
+        <li class="dc-featured-product-feature" {{ block.shopify_attributes }}>
+          {{ block.settings.text }}
+        </li>
+
+    {% endcase %}
+  {% endfor %}
+</ul>
+  {{ section.blocks.button.settings.text }}
+  <div class="button-wrapper">
+    
+  
+  <a href="{{ product.url }}" class="button button--primary">Details</a>
+</div>
+
+</div>
