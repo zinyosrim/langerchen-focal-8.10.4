@@ -155,7 +155,7 @@
       "sold_out": "Ausverkauft",
       "discount_html": "Spare {{ savings }}",
       "from_price_html": "Ab {{ price_min }}",
-      "add_to_cart": "+ Zum Warenkorb hinzufügen",
+      "add_to_cart": "+ In den Warenkorb",
       "add_to_cart_short": "In den Warenkorb",
       "quick_view": "Schnellansicht",
       "available_colors_count": {
@@ -177,8 +177,8 @@
       "size_chart": "Größentabelle",
       "need_help": "Brauchst Du Hilfe?",
       "view_details": "Details ansehen",
-      "include_taxes": "Inkl. Steuern.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Steuern<\/a> werden im Checkout berechnet",
+      "include_taxes": "Inkl. MwSt. und ",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Versandkosten<\/a>, 3-4 Tage Lieferzeit",
       "reviews_count": {
         "zero": "Noch keine Bewertungen",
         "one": "{{ count }} Bewertung",
@@ -191,7 +191,7 @@
       "variant": "Variante",
       "unavailable": "Nicht verfügbar",
       "pre_order": "Vorbestellen",
-      "add_to_cart": "Zum Warenkorb hinzufügen",
+      "add_to_cart": "In den Warenkorb",
       "sold_out": "Ausverkauft",
       "in_stock": "Auf Lager",
       "oversell_stock": "Bald wieder auf Lager",

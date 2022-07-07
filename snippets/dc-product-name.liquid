@@ -1,0 +1,9 @@
+{% comment %}
+Remove color from product title, e.g. Yoga Basic Top (Pink) ->  Yoga Basic Top
+1. split by )
+2. take first part
+3. split by (
+4. take first part
+5. remove trailing spaces
+{% endcomment %}
+{{ product_name | split: ")" | first | split: "(" | first | strip }}

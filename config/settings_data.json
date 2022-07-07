@@ -14,8 +14,8 @@
     "footer_background": "#8e8c8c",
     "footer_text_color": "#ffffff",
     "primary_button_background": "#8e8c8c",
-    "secondary_button_background": "#f3ff34",
-    "secondary_button_text_color": "#282828",
+    "secondary_button_background": "#8e8c8c",
+    "secondary_button_text_color": "#ffffff",
     "product_on_sale_accent": "#de2a2a",
     "product_custom_label_background": "#405de6",
     "product_custom_label_2_background": "#f3ff34",
@@ -80,7 +80,7 @@
           "1109f137-1b4c-4bc6-b1c8-103c77b6fc6a": {
             "type": "mega_menu",
             "settings": {
-              "menu_item": "Damen",
+              "menu_item": "women",
               "images_position": "right",
               "image_1": "shopify:\/\/shop_images\/Header_Desktop_09.06._1_02cef332-b08c-4254-b21e-e5ae7fe7d6c4.jpg",
               "image_1_heading": "",
@@ -107,7 +107,7 @@
           "45bb2d11-82f3-4ec1-9fe1-7e9bb8ce69ab": {
             "type": "mega_menu",
             "settings": {
-              "menu_item": "Herren",
+              "menu_item": "Men",
               "images_position": "right",
               "image_1_heading": "",
               "image_1_text": "",
@@ -290,7 +290,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "13019466082614940324": {
+        "type": "shopify:\/\/apps\/product-colors\/blocks\/app-embed-block\/1fdc741b-f4ed-4b8c-aee7-aa5e4ad76aa8",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Carbon": {

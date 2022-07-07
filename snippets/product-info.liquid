@@ -17,7 +17,22 @@
     {%- endif -%}
 
     {% unless featured %}
+      {% comment %}
       <h1 class="product-meta__title heading h3">{{ product.title }}</h1>
+      {% endcomment %}
+      {% comment %} Dual Citizen 2021 - Remove Color and GOTS from product title {% endcomment %}
+      <h1 class="product-meta__title heading h3">{% render 'dc-product-name', product_name: product.title %}</h1>
+      {%- if product.description != blank -%}
+        <div class="product-form__description rte" {{ block.shopify_attributes }}>
+          {{- product.description -}}
+        </div>
+      {%- endif -%}
+    {% else %}
+      <h2 class="product-meta__title heading h3">
+        <a href="{{ product.url }}">{{ product.title }}</a>
+      </h2>
+      {% comment %} End of Dual Citizen 2021 - Remove Color and GOTS from product title {% endcomment %}
+      <p class="dc-product-description">{{ product.description }}</p>
     {% else %}
       <h2 class="product-meta__title heading h3">
         <a href="{{ product.url }}">{{ product.title }}</a>
@@ -129,6 +144,8 @@
   </product-meta>
 
   {%- render 'product-form', product: product, update_url: update_url -%}
+
+  {%- render 'dc-product-attributes' -%}
 
   {%- assign help_page = section.settings.help_page -%}
 

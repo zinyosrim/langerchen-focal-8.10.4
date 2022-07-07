@@ -83,7 +83,6 @@
                     </div>
 
                   {%- when 'color' -%}
-                    <div class="color-swatch-list">
                       {%- assign color_swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />' -%}
 
                       {%- for value in option.values -%}
@@ -286,12 +285,15 @@
       PRODUCT DESCRIPTION
       ----------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
+
+      {% comment %}
       {%- when 'description' -%}
         {%- if product.description != blank -%}
           <div class="product-form__description rte" {{ block.shopify_attributes }}>
             {{- product.description -}}
           </div>
         {%- endif -%}
+      {% endcomment %}
 
       {%- comment -%}
       ----------------------------------------------------------------------------------------------------------------

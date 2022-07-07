@@ -15009,6 +15009,173 @@ shopify-payment-terms {
 }
 
 /* Custom Styles Dual Citizen 2022 */
+
+/* Homepage sections */
+
+/* variables */
+:root {
+  /*--ci-color: #CA9E62;*/
+  --button-height: 72px; 
+  --section-block-background: transparent;
+}
+
+/* announcement bar */
+#shopify-section-announcement-bar > section > announcement-bar > div > announcement-bar-item > div {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* header */
+#shopify-section-header > store-header > div > div {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* buttons */
+a.button, button, button.shopify-payment-button__button.shopify-payment-button__button--unbranded  {
+  border-radius: var(--block-border-radius-reduced) !important;
+}
+button#AddToCart {
+  /*width: fit-content;*/
+}
+
+#MainPaymentContainer {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 10px;
+}
+
+/* Homepage Richtext section increase bottom margin */
 div.shopify-section--rich-text {
   margin-bottom: 6rem;
+}
+
+/* section spacers, all except top first */
+[id^=shopify-section-template--]:not(:first-child):not(:nth-child(2)) {
+  margin-top: 4rem!important;
+}
+
+/* multicolumn title */
+.multi-column__text-container p.heading.h5 {
+  font-size: 1.8rem;
+}
+
+.shopify-section--shop-the-look {
+  padding-left: var(--container-gutter);
+  padding-right: var(--container-gutter)
+}
+
+/********** Collection *********/
+
+/* remove border between filters */
+#facet-filters-form > div > div {
+  border-top: none;
+}
+
+/* collection sort-order styling color change */
+.popover-button {
+  color: rgba(var(--text-color),.7);
+}
+
+/***** Product page *****/
+
+/* Product */
+
+.product-meta__title {
+  margin-bottom: 0;
+}
+
+.product-form__description{
+  margin-top: .5rem;
+  margin-bottom: 3rem;
+}
+
+.product__info product-meta span.price--highlight {
+  font-weight: 600;
+}
+
+/* product tabs */
+.product-tabs__tab-item-wrapper:first-child {
+  font-size: x-large;
+}
+
+/* Remove broder below price */
+.product__info > product-meta {
+  border-bottom: none;
+}
+
+.product-form__description{
+  margin-top: .5rem;
+  margin-bottom: 3rem;
+}
+
+.product__info product-meta span.price--highlight {
+  font-weight: 600;
+}
+
+/* reduce space below tab label */ 
+.tabs-nav__item-list .tabs-nav__item {
+  padding-bottom: .5rem;
+}
+
+.shopify-section--featured-collections tabs-nav {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.shopify-section--featured-collections header {
+  margin-bottom: 2rem !important;
+}
+
+
+/* Dual Citizen 2020 - change appearance of webyze color app on product page */
+[id^=webyze-product-colors-]::before {
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+  margin-bottom: 5px !important;
+}
+
+[id^=webyze-product-colors-] {
+  padding: 0px 0px 0px 0px !important;
+}
+ 
+[id^=webyze-product-colors-] span.swatchProductColor {
+  height: 44px !important;
+  width: 40px !important;
+  margin: 0px 8px 8px 0 !important;
+  padding: 0 0 4px 0 !important;
+  border: none !important;
+  border-radius: 4px 4px 0 0 !important; 
+}
+
+[id^=webyze-product-colors-] span.swatchProductColor > div{
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 4px!important; 
+}
+
+[id^=webyze-product-colors-] > span.swatchProductColor.currentSwatch {
+  border-bottom: 2px solid rgb(var(--text-color)) !important;
+}
+
+/* Size Option */
+label.block-swatch__item::after {
+  border-radius: 4px;
+}
+
+label.block-swatch__item {
+  padding: 4px;
+  border: 1px solid lightgray;
+  min-width: 40px !important;
+  border-radius: 4px !important;
+  height: 40px;
+}
+
+label.block-swatch__item::after {
+  width: 40px;
+  height: 47px;
+  box-shadow: none;
+  border-bottom: 2px solid rgb(var(--text-color));
+  border-radius: 0;
 }

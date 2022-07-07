@@ -1,0 +1,135 @@
+{% comment %}
+    Dual Citizen 2022
+    Display product attributes based on product metafields below checkout buttons:
+        Wassersäule - product.metafields.custom.wassersaeule
+        Schneeflocken - product.metafields.custom.schneeflocken
+        Eco certifications
+{% endcomment %}
+<style>
+
+    .dc-product-attributes {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .dc-product-attributes {
+        margin-bottom: 3rem;
+    }
+
+    span.icon {
+        width: 4rem;
+        height: 4rem
+    }
+
+    .gray svg {
+        filter: opacity(0.3);
+    }
+
+    .dc-product-attribute-title {
+        margin-bottom: .3rem;
+    }
+
+    .dc-product-attribute-content {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .dc-product-attribute-icons {
+        display: flex;
+        flex-direction: row;
+        gap: .1rem;
+        align-items: center;
+    }
+
+    .dc-product-attribute-details  {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .dc-product-attribute-details > div {
+        line-height: 1.4rem;
+        margin-bottom: 0px;
+    }
+
+    .dc-link {
+        text-decoration: underline;
+    }
+
+   span.icon-GRS{
+        width: 8rem;
+    }
+</style>
+
+<div class="dc-product-attributes">
+    {% comment %} Wassersäule {% endcomment %}
+    {% if product.metafields.custom.wassersaeule > 0 %}
+        <div class="dc-product-attribute">
+            {% assign wassersaeule = product.metafields.custom.wassersaeule %} 
+            {% if wassersaeule >= 15000 %}
+                {% assign interpretation = 'Starker Regen' %}
+            {% elsif wassersaeule >= 10000 %}
+                {% assign interpretation = 'Mittlerer Regen' %}
+            {% elsif wassersaeule >= 5000 %}
+                {% assign interpretation = 'Leichter Regen' %}
+            {% else %}
+                {% assign interpretation = '' %}
+            {% endif %}
+            
+            <div class="dc-product-attribute-title">
+                Regenschutz >  <a class="dc-link" href = 'pages/funktion'> Details</a>
+            </div>
+            <div class="dc-product-attribute-content">
+                <div class="dc-product-attribute-icons">
+                    {% render 'dc-icon', icon: 'wassersaeule' %}
+                </div>
+
+                <div class="dc-product-attribute-details">  
+                    <div>Wassersäule</div>
+                    <div>{{ product.metafields.custom.wassersaeule | times: 100 | money_without_currency | replace: ',', '.' }} mm</div>
+                    <div>{{ interpretation }}</div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+
+    {% comment %} Schneeflocken {% endcomment %}
+    {% if product.metafields.custom.schneeflocken > 0 %}
+        <div class="dc-product-attribute">
+            <div class="dc-product-attribute-title">
+                Kälteschutz >  <a class="dc-link" href = 'pages/funktion'> Details</a>
+            </div>
+            <div class="dc-product-attribute-icons">
+                {% assign schneeflocken =  product.metafields.custom.schneeflocken | times: 1 %}
+                {% for schneeflocke in (1..4) %}
+                    {% if forloop.index <= schneeflocken %}
+                        {% render 'dc-icon', icon: 'schneeflocke' %}
+                    {% else %}
+                        <div class="gray">
+                            {% render 'dc-icon', icon: 'schneeflocke' %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+ 
+    {% comment %} Eco and Fair {% endcomment %}
+    <div class="dc-product-attribute">
+        <div class="dc-product-attribute-content">
+            <div class="dc-product-attribute-icons">
+                {% if product.metafields.custom.certification != "" %}
+                    {% render 'dc-icon', icon: product.metafields.custom.certification %}
+                {% endif %}
+                {% render 'dc-icon', icon: 'fair' %}
+                
+            </div>
+        </div>
+    </div>
+    {% for icon in product.metafields.custom.icons %}
+        {{ icon }}
+    {% endfor %}
+</div>
