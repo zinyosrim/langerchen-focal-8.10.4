@@ -117,19 +117,17 @@
         </div>
     {% endif %}
  
-    {% comment %} Eco and Fair {% endcomment %}
+    {% comment %} Eco certification and Fair icons {% endcomment %}
     <div class="dc-product-attribute">
         <div class="dc-product-attribute-content">
             <div class="dc-product-attribute-icons">
+                {% comment %} certification icon {% endcomment %}
                 {% if product.metafields.custom.certification != "" %}
                     {% render 'dc-icon', icon: product.metafields.custom.certification %}
                 {% endif %}
-                {% render 'dc-icon', icon: 'fair' %}
-                
+                {% comment %} Fair icon {% endcomment %}
+                {% render 'dc-icon', icon: 'fair' %} 
             </div>
         </div>
     </div>
-    {% for icon in product.metafields.custom.icons %}
-        {{ icon }}
-    {% endfor %}
 </div>

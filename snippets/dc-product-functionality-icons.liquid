@@ -1,0 +1,30 @@
+{% comment %}
+    Display product material icons based on metafield product.metafields.custom.icons
+{% endcomment %}
+<style>
+.dc-product-material-icons {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(6rem, 10%));
+}
+
+@media (max-width: 500px) {
+    .product-functionality-icons {
+        width: 100%;  
+    }
+}
+
+.dc-product-material-icons span.icon {
+    height: 6rem;
+    width: 6rem;
+    opacity: .8;
+}
+</style>
+
+<div class="dc-product-material-icons">
+    {% assign icons = product.metafields.custom.icons.value %}
+    {% for icon in icons %}
+        {% render 'dc-icon', icon: icon %}
+    {% endfor %}
+</div>   
+ 

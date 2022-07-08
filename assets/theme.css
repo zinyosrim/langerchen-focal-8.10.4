@@ -15086,6 +15086,12 @@ div.shopify-section--rich-text {
   margin-bottom: 0;
 }
 
+/* font size price */
+product-meta > div.product-meta__price-list-container > div.price-list > span.price.price--highlight.price--large,
+product-meta > div.product-meta__price-list-container > div.price-list > span.price.price--compare {
+  font-size: xx-large;;
+}
+
 .product-form__description{
   margin-top: .5rem;
   margin-bottom: 3rem;
