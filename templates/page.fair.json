@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "165763107177ab4cfe": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "FAIR",
+        "content": "<p>Mode und Fairness gehen leider nicht überall Hand in Hand. Als Fair Fashion Label wollen wir in der Modeindustrie mit gutem Beispiel vorangehen und zeigen, dass sich schöne und hochwertige Kleidung mit fairen Arbeitsbedingungen und gerechten Löhnen vereinen lässt.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657631143c665fbf6": {
+      "type": "image-with-text",
+      "blocks": {
+        "165763114345a663a7-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FAIR__1_1200x_d7497db4-1adc-4051-9777-9ba29244141a.webp",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "",
+            "content": "<p>Unsere Mitarbeiter führen ein dem Westen ähnlichen Lebensstil, indem  Arbeits-  und  Privatleben gleiche Beachtung finden. Arbeitstage sind üblicherweise von Montag bis Freitag. Die Arbeitsstunden sind gesetzlich geregelt auf 40 Wochenstunden.<\/p><p><\/p><p>Eine faire Bezahlung liegt uns am Herzen. Alle Modelle aus den LangerChen-Kollektionen werden in der eigenen Manufaktur in der Nähe von Shanghai gefertigt. Knapp 90 Mitarbeiter mit Langzeitverträgen kümmern sich dort um die Herstellung der Jacken und Mäntel. Das Lohnniveau liegt weit über dem gesetzlichen Mindestlohn, denn China ist kein Billiglohnland mehr.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165763114345a663a7-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657631280338a88b5": {
+      "type": "image-with-text",
+      "blocks": {
+        "1657631280fdf1c5aa-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FAIR_2_1200x_0e0c0c31-eb21-440f-8945-bada740010f7.webp",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "",
+            "content": "<p>Unsere Mitarbeiter arbeiten unter guten und sicheren Arbeitsbedingungen. Sie erhalten Löhne, von denen sie ihren Lebensunterhalt gut bestreiten können, sowie eine Kranken- und Rentenversicherung. Unser Team arbeitet mit den neuesten Technologien der Modeindustrie. Das sorgt für persönlichen Fortschritt. Die Mitarbeiter werden regelmäßig geschult und vertiefen so ihre Kenntnisse zur ökologischen Produktion. Zusatzleistungen, die wir unseren Mitarbeitern bieten, sind ein gemeinsamer Lunch, der täglich frisch zubereitet wird, und  einen Firmenbus für die tägliche Fahrt zur Arbeit.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657631280fdf1c5aa-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165763360053fae0a3": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/VSH-44p2C9Q",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165763107177ab4cfe",
+    "1657631143c665fbf6",
+    "1657631280338a88b5",
+    "165763360053fae0a3"
+  ]
+}

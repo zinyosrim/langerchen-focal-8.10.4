@@ -1,0 +1,152 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "165763107177ab4cfe": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "FAIR - CONSCIOUS - SUSTAINABLE",
+        "content": "<p>Dafür stehen wir als Fair Fashion Label seit 2013. Wir kreieren Eco Outerwear, die durch einen zeitlosen Look, nachhaltige Materialien und eine hohe Funktionalität punktet. Faire Produktionsbedingungen, ein möglichst geringer ökologischer Fußabdruck und hochwertige Produkte spielen von Beginn an eine große Rolle für uns.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657631143c665fbf6": {
+      "type": "image-with-text",
+      "blocks": {
+        "165763114345a663a7-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DIE_MARKE_1_1200x_09d21e57-bf07-41d3-96fd-1d822a935cfe.webp",
+            "tab_label": "Item",
+            "subheading": "Die Gründer von LangerChen",
+            "title": "Miranda Chen & Philipp Langer",
+            "content": "<p>LangerChen zeigt, dass Mode ‚made in China‘ nichts mit Massenproduktion oder schlechten Arbeitsbedingungen zu tun haben muss. Ganz im Gegenteil: Mit dem Ziel, eine umweltfreundliche und faire Textilproduktion in China zu etablieren, gründeten Miranda Chen und Philipp Langer schon 2009 gemeinsam die Textilmanufaktur Jiecco. Die Leidenschaft für Mode und die Expertise in der Stoffentwicklung waren fünf Jahre später der Grundstein für das Modelabel LangerChen.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165763114345a663a7-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657631280338a88b5": {
+      "type": "image-with-text",
+      "blocks": {
+        "1657631280fdf1c5aa-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DIE_MARKE_3_1200x_3bfb6fcf-f217-40fe-b0bd-20062005afc4.webp",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Unser Produktionsteam",
+            "content": "<p>In der eigenen Produktionsstätte etwa eine Stunde von Shanghai entfernt werden heute alle LangerChen Kollektionen gefertigt – vom Stoff bis hin zur fertigen Jacke. Der GOTS zertifizierte Betrieb ist seit seiner Gründung auf die Produktion von nachhaltiger Mode spezialisiert und mit seinen Standards in Sachen fairer Herstellung und guten Arbeitsbedingungen Vorreiter in China.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657631280fdf1c5aa-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165763175385702ea0": {
+      "type": "image-with-text",
+      "blocks": {
+        "16576317533631b58f-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DIE_MARKE_1200x_4138b21a-bd75-4ac5-a202-6b29158e8ea4.webp",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Made by Humans",
+            "content": "<p>Knapp 100 Mitarbeiter arbeiten hier an den nachhaltigen Kollektionen. Ein fairer Lohn, gute Arbeitsbedingungen und ein angenehmes Arbeitsklima stehen hierbei für alle mit an oberster Stelle. Jiecco produziert mittlerweile auch für andere große Eco-Player.<\/p><p><\/p><p>Unser deutsches Office ist in der Nähe von München, während unser chinesisches Team bei Shanghai an unseren Kollektionen feilt.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16576317533631b58f-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16576318430841194f": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>NACHHALTIGKEIT<\/strong> – Uns liegt viel daran, die Ressourcen unseres Planeten pfleglich zu behandeln und einen möglichst geringen ökologischen Fußabdruck zu hinterlassen. Bei der Wahl unserer Materialien setzen wir auf Bio-Baumwolle, Eco-Wolle, Tencel, Bio-Leinen und recyceltes Polyester. <br\/><br\/><strong>FAIRNESS<\/strong> – Wir wollen zeigen, dass Modeindustrie auch fair sein kann. Wir fertigen im eigenen Betrieb in China, kennen jeden unserer Mitarbeiter persönlich und zahlen faire Löhne. Unsere Produktionsstätte Jiecco achtet auf gute Arbeitsbedingungen, schult alle Mitarbeiter auf Ökologie und organisiert die tägliche Anfahrt für die Mitarbeiter. Wir sind ein sehr familiärer Betrieb mit vielen langjährigen Mitarbeitern. <a href=\"https:\/\/langerchen.com\/pages\/fair-fashion\">Erfahre hier mehr<\/a><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165763107177ab4cfe",
+    "1657631143c665fbf6",
+    "1657631280338a88b5",
+    "165763175385702ea0",
+    "16576318430841194f"
+  ]
+}
