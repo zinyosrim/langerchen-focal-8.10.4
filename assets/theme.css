@@ -15102,8 +15102,13 @@ product-meta > div.product-meta__price-list-container > div.price-list > span.pr
 }
 
 /* product tabs */
-.product-tabs__tab-item-wrapper:first-child {
+.product-tabs__tab-item-wrapper {
   font-size: x-large;
+}
+
+.product-tabs__tab-item-content {
+  line-height: 1.1;
+  letter-spacing: -.8px;
 }
 
 /* Remove broder below price */

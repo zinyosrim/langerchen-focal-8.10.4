@@ -11,7 +11,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "hide_sold_out_variants": false,
+            "hide_sold_out_variants": true,
             "selector_mode": "block",
             "color_mode": "color",
             "size_chart_page": ""
@@ -68,12 +68,11 @@
             "page": ""
           }
         },
-        "2c4e1fd1-f098-412b-ad1a-4c57901961cc": {
-          "type": "content",
+        "7973c319-7819-4ead-a0eb-d73f6fa2c2be": {
+          "type": "liquid",
           "settings": {
             "title": "Material & Eco",
-            "content": "<p>{{ product.metafields.custom.material_eco.value }}<\/p>",
-            "page": ""
+            "liquid": "{% render 'dc-product-details-material-eco-accordion' %}"
           }
         },
         "28945b40-8253-4ad5-9c8a-125012c0a2cd": {
@@ -91,22 +90,14 @@
             "content": "",
             "page": "versand-retouren"
           }
-        },
-        "7973c319-7819-4ead-a0eb-d73f6fa2c2be": {
-          "type": "liquid",
-          "settings": {
-            "title": "liquid",
-            "liquid": "{{ pages.fabrics.content }}"
-          }
         }
       },
       "block_order": [
         "89edbee5-20cf-4ea3-8170-0839a411a910",
         "25a7c6da-0207-4d68-a6dc-7aeda2c527eb",
-        "2c4e1fd1-f098-412b-ad1a-4c57901961cc",
+        "7973c319-7819-4ead-a0eb-d73f6fa2c2be",
         "28945b40-8253-4ad5-9c8a-125012c0a2cd",
-        "4b2a74fa-a29b-4c35-a8e6-9fde9d19cde9",
-        "7973c319-7819-4ead-a0eb-d73f6fa2c2be"
+        "4b2a74fa-a29b-4c35-a8e6-9fde9d19cde9"
       ],
       "settings": {
       }

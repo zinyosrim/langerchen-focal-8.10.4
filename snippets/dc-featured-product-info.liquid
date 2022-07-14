@@ -1,10 +1,22 @@
 {%- capture product_form_id -%}product-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
 <style>
+
+  :root {
+    --button-height: 72px;
+  }
+  
   ul.dc-featured-product-properties {
-    font-size: xx-large;
+    font-size: medium;
     font-weight: 300; 
   }
+
+  .shopify-section--featured-product .button--primary {
+   
+      --button-background: var(--secondary-button-background);
+      --button-height: 36px;
+  }
+
 
   @media screen and (min-width: 1000px) {
   .product {
