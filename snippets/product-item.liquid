@@ -103,6 +103,7 @@
   </div>
 
   <div class="product-item__info {% if show_cta %}product-item__info--with-button{% endif %} {% if reduced_font_size %}text--small{% endif %}">
+      <div class="webyze-multi-product-colors" data-product-id="{{ product.id }}"></div>
     <div class="product-item-meta">
       {%- if settings.show_vendor -%}
         {%- assign vendor_handle = product.vendor | handle -%}

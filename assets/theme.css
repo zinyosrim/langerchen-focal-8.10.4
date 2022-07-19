@@ -14,6 +14,7 @@
   }
 }
 
+
 @media screen and (min-width: 741px) {
   .hidden-tablet-and-up {
     display: none !important;
@@ -15190,3 +15191,57 @@ label.block-swatch__item::after {
   border-bottom: 2px solid rgb(var(--text-color));
   border-radius: 0;
 }
+
+	/* WEBYZE.COM - CSS */
+	.webyze-multi-product-colors {
+		display:block;
+		padding:4px 2px;
+		flex-grow: 1;
+		width: auto;
+		min-width: 70%;
+	}
+	.webyze-multi-product-colors *
+	{
+		-webkit-box-sizing:content-box !important;
+		-moz-box-sizing:content-box !important;
+		box-sizing:content-box !important;
+		line-height: 1;
+	}
+	.webyze-multi-product-colors .swatchProductColor, .webyze-multi-product-colors .swatchProductColor>div
+	{
+		margin:0px;
+		padding:0px;
+		box-shadow:none;
+		border-radius:0px;
+		border:0px;
+		width: 20px;
+		height: 20px;
+		overflow: hidden;
+		display: inline-block;
+		background-position: center center;
+		vertical-align: middle;
+		background-size: cover;
+	}
+	.webyze-multi-product-colors .swatchProductColor
+	{
+		cursor:pointer;
+		margin:3px 2px;
+		border-radius: 50%;
+		padding:2px;
+	}
+	.webyze-multi-product-colors .swatchProductColor>div
+	{
+		border-radius:inherit;
+	}
+	.webyze-multi-product-colors .swatchProductColor.currentSwatch
+	{
+		border-color:rgba(0, 0, 0, 0.4);
+	}
+	.webyze-multi-product-colors .swatchProductColor>.webyzeTooltip
+	{
+		display:none !important;
+	}
+	.webyze-multi-product-colors .swatchType_two_colors>div>div {
+	height:10px;
+	}
+	

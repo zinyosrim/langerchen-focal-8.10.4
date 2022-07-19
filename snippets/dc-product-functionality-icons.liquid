@@ -1,30 +1,51 @@
 {% comment %}
-    Display product material icons based on metafield product.metafields.custom.icons
+    Display product icons based on metafield product.metafields.custom.icons
+    Param: icon_set
 {% endcomment %}
 <style>
-.dc-product-material-icons {
+.dc-product-icons {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(6rem, 10%));
+    filter: brightness(450%);
 }
 
 @media (max-width: 500px) {
-    .product-functionality-icons {
+    .dc-product-icons {
         width: 100%;  
     }
 }
 
-.dc-product-material-icons span.icon {
-    height: 6rem;
-    width: 6rem;
-    opacity: .8;
+.dc-product-icons span.icon {
+    height: 5rem;
+    width: 5rem;
+}
+
+.dc-product-icons > span.icon > img {
+    margin-top: 0px;
+    margin-bottom_ 0px;
 }
 </style>
 
-<div class="dc-product-material-icons">
-    {% assign icons = product.metafields.custom.icons.value %}
-    {% for icon in icons %}
+<div class="dc-product-icons">
+    {% comment %} Load all icon names relevant for the current product {% endcomment %}
+    {% assign icon_sets = product.metafields.custom.icons.value %}
+   
+    {% comment %} Iterate through selected (input param) icon_set and display icons {% endcomment %}
+    {% comment %} SVG version but broken because of icon quality {% endcomment %}
+    {% comment %}
+    {% for icon in icon_sets[icon_set] %}
         {% render 'dc-icon', icon: icon %}
     {% endfor %}
+    {% endcomment %}
+
+    {% for icon in icon_sets[icon_set] %}
+        {% assign icon_file_name = 'Icon_' | append: icon | append: '.png' %}
+        {% assign image = images[icon_file_name] %}
+        <span class="icon icon-{{ icon }}" aria-hidden="true">
+            <img src="{{ image | img_url: '150x' }}" alt="{{ image.alt }}">
+        </span>
+    {% endfor %}
+
 </div>   
  
