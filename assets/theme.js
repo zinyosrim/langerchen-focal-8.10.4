@@ -5668,6 +5668,7 @@
           scrollTo.scrollIntoView({ block: "start", behavior: "smooth" });
         });
         this.hideLoadingBar();
+        setTimeout(window.webyzeMultiProductColorsLoad, 300);
       } catch (e) {
         if (e.name === "AbortError") {
           return;

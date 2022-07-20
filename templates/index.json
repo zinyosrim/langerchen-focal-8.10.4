@@ -67,6 +67,7 @@
     },
     "1656592756dee382b0": {
       "type": "dc-featured-collections",
+      "disabled": true,
       "blocks": {
         "16565927560976ad4d-0": {
           "type": "collection",
@@ -100,6 +101,56 @@
         "16565927560976ad4d-0",
         "43896fc7-8050-4395-934c-68e0a43b0c03",
         "9eea40b1-d6e0-452b-8398-df690f218136"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Navy Forever",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165824379283a7a170": {
+      "type": "featured-collections",
+      "blocks": {
+        "165824379296fa03cd-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy-forever",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "3b2e378f-f2ec-4e8d-aeb8-266f044624a4": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy-forever-women",
+            "label": "Women",
+            "button_text": "All Navy forever for Women",
+            "button_url": ""
+          }
+        },
+        "564c8130-a2e4-45ec-a4ed-aef8ef2d3585": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy-forever",
+            "label": "Men",
+            "button_text": "All Navy forever for Men",
+            "button_url": "shopify:\/\/collections\/navy-forever"
+          }
+        }
+      },
+      "block_order": [
+        "165824379296fa03cd-0",
+        "3b2e378f-f2ec-4e8d-aeb8-266f044624a4",
+        "564c8130-a2e4-45ec-a4ed-aef8ef2d3585"
       ],
       "settings": {
         "subheading": "",
@@ -269,6 +320,7 @@
     "16540023939ffb16a4",
     "165649830741e02fac",
     "1656592756dee382b0",
+    "165824379283a7a170",
     "165400323037662882",
     "165659271380adfa58",
     "shop-the-look",

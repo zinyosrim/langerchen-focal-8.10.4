@@ -138,12 +138,32 @@ Code that create the faceted search for the collection and search pages. It curr
                           {%- endfor -%}
                         </div>
                       {%- else -%}
-                        {%- for filter_value in filter.values -%}
-                          <div class="checkbox-container">
-                            <input class="checkbox" type="checkbox" name="{{ filter_value.param_name }}" id="{{ filter_value.param_name | escape }}-{{ forloop.index }}" value="{{ filter_value.value | escape }}" {% if filter_value.active %}checked="checked"{% endif %} {% if filter_value.count == 0 %}disabled{% endif %}>
-                            <label for="{{ filter_value.param_name | escape }}-{{ forloop.index }}">{{ filter_value.label }} ({{ filter_value.count}})&lrm;</label>
+                        {% comment %} Dual Citizen 2022 - Show swatches for metafields of Farben {% endcomment %}
+                        {%- if filter.label == 'Color' -%}
+                          <div class="color-swatch-list">
+                            {%- assign color_swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />' -%}
+                            
+                            {%- for filter_value in filter.values -%}
+                              {%- assign color_value_downcase = filter_value.label | downcase -%}
+                              <div class="color-swatch {% if color_white_label == color_value_downcase %}color-swatch--white{% endif %} {% if filter_value.count == 0 %}is-disabled{% endif %}" data-tooltip="{{ filter_value.label | escape }}">
+                                <input class="color-swatch__radio visually-hidden" type="checkbox" name="{{ filter_value.param_name }}" id="{{ filter_value.param_name | escape }}-{{ forloop.index }}" value="{{ filter_value.value | escape }}" title="{{ filter_value.label | escape }}" {% if filter_value.active %}checked="checked"{% endif %} {% if filter_value.count == 0 %}disabled{% endif %}>
+                                <label class="color-swatch__item" for="{{ filter_value.param_name | escape }}-{{ forloop.index }}" style="{% render 'color-swatch-style', color_swatch_config: color_swatch_config, value: filter_value.label %}">
+                                  <span class="visually-hidden">{{ filter_value.label }}</span> 
+                                </label>
+                              </div>
+                            {%- endfor -%}
                           </div>
-                        {%- endfor -%}
+                        {% else %}
+                        {% comment %} End of Dual Citizen 2022 - Show swatches for metafields of Farben {% endcomment %}
+                          {%- for filter_value in filter.values -%}
+                            <div class="checkbox-container">
+                              <input class="checkbox" type="checkbox" name="{{ filter_value.param_name }}" id="{{ filter_value.param_name | escape }}-{{ forloop.index }}" value="{{ filter_value.value | escape }}" {% if filter_value.active %}checked="checked"{% endif %} {% if filter_value.count == 0 %}disabled{% endif %}>
+                              <label for="{{ filter_value.param_name | escape }}-{{ forloop.index }}">{{ filter_value.label }} ({{ filter_value.count}})&lrm;</label>
+                            </div>
+                          {%- endfor -%}
+                        {% comment %} Dual Citizen 2022 - Show swatches for metafields of Farben {% endcomment %}
+                        {%- endif -%}
+                        {% comment %} End of Dual Citizen 2022 - Show swatches for metafields of Farben {% endcomment %}
                       {%- endif -%}
 
                     {%- when 'price_range' -%}
