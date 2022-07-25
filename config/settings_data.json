@@ -29,6 +29,7 @@
     "currency_code_enabled": false,
     "stagger_products_apparition": true,
     "round_color_swatches": false,
+    "color_swatch_config": "blau: #1572C5\nbraun:#AE802B\ncreme:#E9CD9A\ngelb:#E7DD11\ngrau:#B6B6B6\ngrün:#6CAD15\nkhaki:#D6C14C\noliv:#a49a7c\nmilitary:#56563e\nrosa:#EF99C9\nrot:#DD3A1D\nschwarz:#060606",
     "show_vendor": false,
     "show_secondary_image": true,
     "show_product_rating": false,
@@ -38,6 +39,8 @@
     "cart_type": "message",
     "cart_icon": "shopping_bag",
     "cart_show_free_shipping_threshold": true,
+    "social_facebook": "https:\/\/facebook.com\/langerchenfashion\/",
+    "social_instagram": "https:\/\/www.instagram.com\/langerchenofficial",
     "checkout_sidebar_background_color": "#f5f5f5",
     "checkout_accent_color": "#282828",
     "checkout_button_color": "#405de6",
@@ -79,6 +82,7 @@
         "blocks": {
           "1109f137-1b4c-4bc6-b1c8-103c77b6fc6a": {
             "type": "mega_menu",
+            "disabled": true,
             "settings": {
               "menu_item": "women",
               "images_position": "right",
@@ -106,6 +110,7 @@
           },
           "45bb2d11-82f3-4ec1-9fe1-7e9bb8ce69ab": {
             "type": "mega_menu",
+            "disabled": true,
             "settings": {
               "menu_item": "Men",
               "images_position": "right",
@@ -139,13 +144,13 @@
           "logo": "shopify:\/\/shop_images\/LC_Logo_Web_100px.png",
           "logo_max_width": 200,
           "mobile_logo_max_width": 85,
-          "navigation_menu": "haupt-navigation",
+          "navigation_menu": "menu-sp2022",
           "sidebar_navigation_menu": "",
           "header_layout": "logo_center_navigation_inline",
           "show_icons": true,
           "reduce_desktop_padding": true,
           "show_locale_selector": true,
-          "show_country_selector": true,
+          "show_country_selector": false,
           "enable_transparent_header": false,
           "transparent_header_text_color": "#ffffff",
           "search_menu": ""
@@ -154,11 +159,11 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "text": {
-            "type": "text",
+          "social_media": {
+            "type": "social_media",
             "settings": {
-              "title": "About our store",
-              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+              "title": "Follow us",
+              "content": ""
             }
           },
           "links": {
@@ -167,26 +172,25 @@
               "menu": "footer"
             }
           },
-          "newsletter": {
-            "type": "newsletter",
+          "bd341ed9-27c3-47b1-b409-3481fc917118": {
+            "type": "links",
             "settings": {
-              "title": "Newsletter",
-              "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              "menu": "legal"
             }
           },
-          "social_media": {
-            "type": "social_media",
+          "text": {
+            "type": "text",
             "settings": {
-              "title": "Follow us",
-              "content": "<p>To configure social media, go to your social media settings. Change this text in the theme editor.<\/p>"
+              "title": "Noch fragen?",
+              "content": "<p>Schreiben Sie uns an: <br\/><a href=\"mailto:hello@langerchen.com\" title=\"mailto:hello@langerchen.com\">hello@langerchen.com<\/a><\/p><p>Unser Shop ist SSL-verschlüsselt und PCI DSS zertifiziert.<\/p>"
             }
           }
         },
         "block_order": [
-          "text",
+          "social_media",
           "links",
-          "newsletter",
-          "social_media"
+          "bd341ed9-27c3-47b1-b409-3481fc917118",
+          "text"
         ],
         "settings": {
           "show_payment_icons": true,

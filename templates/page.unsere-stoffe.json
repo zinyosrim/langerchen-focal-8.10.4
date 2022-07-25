@@ -54,11 +54,11 @@
         "165763114345a663a7-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/os_bw20_1200x_5743453b-55bb-4f51-9d68-e024c8e6901f.webp",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_6.jpg",
             "tab_label": "Item",
-            "subheading": "",
+            "subheading": "100% Organic Wool",
             "title": "Boiled Eco Wool",
-            "content": "<p>Leichtes und wärmendes Material aus Wollwalk. Der fließende Fall unterstreicht weibliche Silhouetten. Wollwalk hat von Natur aus eine wasserabweisende Funktion. Der gestrickte Stoff bleibt trotz des Walkens elastisch. <\/p><p>Gut geeignet für kühleres Wetter und eventuell leichten Regen. Leicht und angenehm zu tragen.<\/p><p>Material: 100% Bio-Wolle<\/p><p>- wasserabweisend<br\/>- atmungsaktiv<br\/>- elastisch<\/p>",
+            "content": "<p>Leichtes und wärmendes Material aus Wollwalk. <br\/>Aus unserem GOTS zertifiziertem Wollgarn wird ein Flächenstrick hergestellt. Dieser wird unter Einfluss von Hitze, Wasser und mechanischer Energie gewalkt. Walken ist ein kontrollierter Filzprozess. <\/p><p>Das Walken verleiht dem Stoff eine geschlossene Obefläche. Wollwalk hat von Natur aus eine wasserabweisende Funktion. Der gestrickte Stoff bleibt trotz des Walkens elastisch. Der sanft fließende Fall<br\/>eignet sich gut für weibliche Silhouetten.<\/p><p>Gut geeignet für kühleres Wetter und eventuell leichten Regen. <br\/>Leicht und angenehm zu tragen.<\/p><p>Material: 100% Bio-Wolle<\/p><p>- wasserabweisend<br\/>- atmungsaktiv<br\/>- elastisch<\/p>",
             "button_text": "Discover Boiled eco wool Styles",
             "button_link": ""
           }
@@ -80,17 +80,49 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "165763759741034359": {
+      "type": "image-with-text",
+      "blocks": {
+        "1657637597aee44951-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel.jpg",
+            "tab_label": "Item",
+            "subheading": "100% Organic Wool",
+            "title": "Woolen Checks",
+            "content": "<p>Diese Flächengestricke werden auf Jacquard Maschinen gestrickt. <br\/>Das erlaubt die Verwendung von mehreren Farben zur Gestaltung von Mustern. Nach Stricken werden die Stoffe wie die Boiled Ecowool gewalkt und ausgerüstet.  <\/p><p>Die Verwendung von mehreren Garnfarben macht die Stoffe sehr reich und voluminös. Daher sind sie auch besonders warm.<br\/><br\/>100% Organic Wool<\/p><p>- atmungsaktiv<br\/>- elastisch<\/p>",
+            "button_text": "DISCOVER WOOLEN CHECK STYLES",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657637597aee44951-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "1657631280338a88b5": {
       "type": "image-with-text",
       "blocks": {
         "1657631280fdf1c5aa-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/os_ws01_4_1000x_abb7a9bc-2187-48fb-97b4-3e6de43a61a9.webp",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_7.jpg",
             "tab_label": "Item",
-            "subheading": "",
+            "subheading": "85% Organic Wool \/ 15% Organic Cotton \/ Polyurethane Membrane",
             "title": "Techno Felt (3 Layer)",
-            "content": "<p>Techno Felt ist ein dreilagiger, leichter Wollstoff. Die Außenseite besteht aus Wollwalk, die Innenseite aus Bio-Baumwoll-Jersey. Dank der zwischenliegenden PU-Membran wird der Stoff winddicht und wasserundurchlässig. Sie verleiht dem Material zudem Stand, ohne das dieses an Elastizität verliert. Der Wollwalk hat zudem von Natur aus eine wasserabweisende Funktion. Der 3-lagige Aufbau kombiniert Oberstoff und Futter in einer einzigen Lage.<\/p><p>AUßEN: 100% Bio-Wolle<br\/>DAZWISCHEN: Polyurethan Membran<br\/>INNEN: 100% Bio-Baumwoll-Jersey<\/p><p>- wasserabweisend<br\/>- windfest<br\/>- atmungsaktiv<br\/>- Membran<br\/>- elastisch<br\/>- warm<\/p>",
+            "content": "<p>Techno Felt ist ein dreilagiger, leichter Wollstoff. Die Außenseite besteht aus Wollwalk, die Innenseite aus Bio-Baumwoll-Jersey. Dank der zwischenliegenden PU-Membran wird der Stoff winddicht und wasserundurchlässig. Sie verleiht dem Material zudem Stand, ohne das dieses an Elastizität verliert. Der Wollwalk hat zudem von Natur aus eine wasserabweisende Funktion. Der 3-lagige Aufbau kombiniert Oberstoff und Futter in einer einzigen Lage.<\/p><p>AUßEN: 100% Bio-Wolle<br\/>DAZWISCHEN: Polyurethan Membran<br\/>INNEN: 100% Bio-Baumwoll-Jersey<\/p><p>- wasserabweisend<br\/>- winddicht<br\/>- atmungsaktiv<br\/>- Membran<br\/>- elastisch<br\/>- warm<\/p>",
             "button_text": "Discover Techno Felt (3 Layer) Styles",
             "button_link": ""
           }
@@ -103,7 +135,7 @@
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "background_overlap": "image",
-        "image_position": "right",
+        "image_position": "left",
         "text_alignment": "left",
         "cycle_speed": 8,
         "accent_background": "rgba(0,0,0,0)",
@@ -118,11 +150,11 @@
         "16576317533631b58f-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/os_ws01_1_1000x_d76b7045-1a0c-4d8d-879d-a3636f06e05a.webp",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_8.jpg",
             "tab_label": "Item",
-            "subheading": "",
+            "subheading": "100% Organic Wool \/ Polyurethane Membrane",
             "title": "Techno Felt (2 Layer)",
-            "content": "<p>Techno Felt ist ein zweilagiger, sehr leichter Wollstoff. Die Außenseite besteht aus Wollwalk. Dank der darunterliegenden PU-Membran wird der Stoff winddicht und wasserundurchlässig. Der Wollwalk hat zudem von Natur aus eine wasserabweisende Funktion.<\/p><p>AUßEN: 100% Bio-Wolle<br\/>INNEN: Polyurethan Membran<\/p><p>- wasserabweisend<br\/>- windfest<br\/>- atmungsaktiv<br\/>- Membran<br\/>- elastisch<br\/>- warm<\/p>",
+            "content": "<p>Techno Felt ist ein zweilagiger, sehr leichter Wollstoff. Die Außenseite besteht aus Wollwalk. Dank der darunterliegenden PU-Membran wird der Stoff winddicht und wasserundurchlässig. Der Wollwalk hat zudem von Natur aus eine wasserabweisende Funktion.<\/p><p>AUßEN: 100% Bio-Wolle<br\/>INNEN: Polyurethan Membran<\/p><p>- wasserabweisend<br\/>- winddicht<br\/>- atmungsaktiv<br\/>- Membran<br\/>- elastisch<br\/>- warm<\/p>",
             "button_text": "Discover Techno Felt (2 Layer) Styles",
             "button_link": ""
           }
@@ -135,38 +167,6 @@
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "1657633169676d16cf": {
-      "type": "image-with-text",
-      "blocks": {
-        "16576331694ec97f06-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/os_storm_pop_4_1000x_19b1287b-2a21-4334-8cdc-1ea023987459.webp",
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "Storm Pop",
-            "content": "<p>Storm Pop ist ein 3-lagiges Material: Das Obermaterial ist dicht gewebter Baumwollpopelin aus Bio-Baumwolle, das mit einer PU-Membran laminiert wird. Sie verhindert, dass Wind und Wasser durch den Stoff dringen. Das Innenfutter besteht aus Polyester Tricot. Wir nutzen den Stoff für regenfeste Übergangsjacken.<\/p><p>AUßEN: 100% Bio-Baumwolle<br\/>DAZWISCHEN: Polyurethan Membran<br\/>INNEN: Polyester Tricot<br\/>FINISH: PFC-freie hydrophobe Ausrüstung<\/p><p>- wasserfest<br\/>- windfest<br\/>- atmungsaktiv<br\/>- Membran<br\/>- vegan<\/p>",
-            "button_text": "Discover Storm Pop Styles",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16576331694ec97f06-0"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
         "image_position": "right",
         "text_alignment": "left",
         "cycle_speed": 8,
@@ -176,62 +176,30 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "1657637280ba08a167": {
+    "165839113910ecd69f": {
       "type": "image-with-text",
       "blocks": {
-        "16576372799a5438c5-0": {
+        "16583911393a6ffacc-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/os_cn02_1000x_6a7309f4-b2cd-45b9-a437-ccbfdcdf896b.webp",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie.jpg",
             "tab_label": "Item",
-            "subheading": "",
-            "title": "Cotton Nylon Shell",
-            "content": "<p>Leichte Funktionsware ideal für Regenwetter dank dichter Webart und innenliegender PU-Membran. Der Nylonanteil schützt die Bio-Baumwolle gegen den üblichen Abrieb bei Baumwolle. Dank seines hohen Baumwollanteils behält der Stoff eine matte, natürliche Optik.<\/p><p>AUßEN: 60% Bio-Baumwolle, 40% recyceltes Nylon<br\/>INNEN: Polyurethan Membran<br\/>FINISH: PFC-freies, hydrophobes Finish<\/p><p>- wasserfest<br\/>- windfest<br\/>- atmungsaktiv<br\/>- vegan<br\/>- Membran<br\/>- recycelt<\/p>",
-            "button_text": "Discover Cotton Nylon Shell Styles",
+            "subheading": "100% Organic Cotton",
+            "title": "2-Ply Twill",
+            "content": "<p>Der dicht gewebte Stoff wird mit gezwirnten Garnen in Kette und Schuß hergestellt. Entsprechend feine Garne kommen zum Einsatz, die die Wertigkeit des Stoffes begründen.<\/p><p>Gezwirnte Garne erhöhen grundsätzlich die Haltbarkeit der Baumwolle gegen Abrieb. Die Oberfläche ist leicht geschmirgelt und sorgt für einen angenehm soften Griff.<\/p><p>Material: 100% Bio-Baumwolle<\/p><p>FINISH: PFC-freie hydrophobe Ausrüstung<\/p><p>- atmungsaktiv<\/p>",
+            "button_text": "DISCOVER 2-PLY TWILL STYLES",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "16576372799a5438c5-0"
+        "16583911393a6ffacc-0"
       ],
       "settings": {
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "background_overlap": "image",
         "image_position": "left",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "1657637381b8e64644": {
-      "type": "image-with-text",
-      "blocks": {
-        "16576373813be35f84-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/os_cn03_1_1000x_1ff1cf4d-1a9a-42ae-8501-50d0e3fae030.webp",
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "Down Shell",
-            "content": "<p>Daunenkammern geschweißt, nicht genäht. Diese Technologie verhindert den Wassereintritt an den Nähten. Der 2-lagige Membran Stoff auf der Außenseite macht die Jacke wasserfest. Die innere Lage ohne Membran bildet das Futter. Der Nylonanteil schützt die Bio-Baumwolle gegen den üblichen Abrieb bei Baumwolle. Dank seines hohen Baumwollanteils behält der Stoff eine matte, natürliche Optik.<br\/><br\/>AUßEN und INNEN: 60% Bio-Baumwolle, 40% recyceltes Nylon<br\/>DAZWISCHEN: Polyurethan Membran<br\/>FINISH: PFC-freies, hydrophobes Finish<br\/>Füllung: Recycelte Polyester Fasern als Daunenersatz<\/p><p>- wasserfest<br\/>- windfest<br\/>- atmungsaktiv<br\/>- vegan<br\/>- Membran<br\/>- recycelt<\/p>",
-            "button_text": "Discover Down Shell Styles",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16576373813be35f84-0"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "right",
         "text_alignment": "left",
         "cycle_speed": 8,
         "accent_background": "rgba(0,0,0,0)",
@@ -246,11 +214,11 @@
         "16576374856d686f85-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/os_co05_1000x_fb43a514-7709-4fcc-bf5c-a71499c37e80.webp",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_12.jpg",
             "tab_label": "Item",
-            "subheading": "",
+            "subheading": "100% Organic Cotton \/ Plant Wax Finish",
             "title": "Tent Fabric Waxed",
-            "content": "<p>Tent Fabric basiert auf einer Technik, die aus der Zeit stammt, als es noch keine synthetischen Stoffe gab und wasserabweisende Stoffe aus Baumwolle hergestellt wurden. Dieses Prinzip haben wir adaptiert: Wir verwenden schwach gedrehte Garne aus Bio-Baumwolle, die sich bei Kontakt mit Wasser ausdehnen. Die Ausdehnung verdichtet die Oberfläche und erhöht damit die wasserabweisende Funktion. Die dichte Webart macht den Stoff windundurchlässig.<\/p><p>Material: 100% Bio-Baumwolle<br\/>Optional mit wärmender Wattierung aus recyceltem Polyester <\/p><p>FINISH: PFC-freie,  hydrophobe Ausrüstung. Veganes Plant Wax Finish<\/p><p>- wasserabweisend<br\/>- windfest<br\/>- atmungsaktiv<\/p>",
+            "content": "<p>Tent Fabric basiert auf einer Technik, die aus der Zeit stammt, als es noch keine synthetischen Stoffe gab und wasserabweisende Stoffe aus Baumwolle hergestellt wurden. Dieses Prinzip haben wir adaptiert: Wir verwenden schwach gedrehte Garne aus Bio-Baumwolle, die sich bei Kontakt mit Wasser ausdehnen. Die Ausdehnung verdichtet die Oberfläche und erhöht damit die wasserabweisende Funktion. Die dichte Webart macht den Stoff windundurchlässig.<\/p><p><strong>Material:<\/strong> 100% Bio-Baumwolle<\/p><p><strong>Finish:<\/strong> PFC-freie, hydrophobe Ausrüstung. Veganes Plant Wax Finish<\/p><p>- wasserabweisend<br\/>- winddicht<br\/>- atmungsaktiv<\/p>",
             "button_text": "Discover Tent Fabric Waxed Styles",
             "button_link": ""
           }
@@ -258,6 +226,38 @@
       },
       "block_order": [
         "16576374856d686f85-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657633169676d16cf": {
+      "type": "image-with-text",
+      "blocks": {
+        "16576331694ec97f06-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_9.jpg",
+            "tab_label": "Item",
+            "subheading": "50% Organic Cotton \/ 32% recyceltes Polyester \/ 18% Polyester \/ Polyurethane Membrane",
+            "title": "Storm Pop (3 Layer)",
+            "content": "<p>Storm Pop ist ein 3-lagiges Material: Das Obermaterial ist dicht gewebter Baumwollpopelin aus Bio-Baumwolle, das mit einer PU-Membran laminiert wird. Sie verhindert, dass Wind und Wasser durch den Stoff dringen. Das Innenfutter besteht aus Polyester Tricot. Wir nutzen den Stoff für regenfeste Übergangsjacken.<\/p><p><strong>Außen:<\/strong> 100% Bio-Baumwolle<br\/><strong>Dazwischen:<\/strong> Polyurethan Membran<br\/><strong>Innen:<\/strong> Polyester Tricot<br\/><strong>Finish:<\/strong> PFC-freie hydrophobe Ausrüstung<\/p><p>- wasserfest<br\/>- winddicht<br\/>- atmungsaktiv<br\/>- Membran<\/p>",
+            "button_text": "Discover Storm Pop Styles",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16576331694ec97f06-0"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -272,23 +272,256 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "165763759741034359": {
+    "1657637280ba08a167": {
       "type": "image-with-text",
       "blocks": {
-        "1657637597aee44951-0": {
+        "16576372799a5438c5-0": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_10.jpg",
             "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-            "button_text": "",
+            "subheading": "60% Organic Cotton \/ 40% recycled Nylon \/ Polyurethane Membrane",
+            "title": "Cotton Nylon Shell",
+            "content": "<p>Leichte Funktionsware ideal für Regenwetter dank dichter Webart und innenliegender PU-Membran. Der Nylonanteil schützt das Gewebe gegen Abrieb bei Baumwolle. Dank seines hohen Baumwollanteils behält der Stoff eine matte, natürliche Optik.<\/p><p><strong>Außen:<\/strong> 60% Bio-Baumwolle, 40% recyceltes Nylon<br\/><strong>Innen:<\/strong> Polyurethan Membran<br\/><strong>Finish:<\/strong> PFC-freies, hydrophobes Finish<\/p><p>- wasserfest<br\/>- winddicht<br\/>- atmungsaktiv<br\/>- Membran<br\/>- recycelt<\/p>",
+            "button_text": "Discover Cotton Nylon Shell Styles",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "1657637597aee44951-0"
+        "16576372799a5438c5-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1657637381b8e64644": {
+      "type": "image-with-text",
+      "blocks": {
+        "16576373813be35f84-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_11.jpg",
+            "tab_label": "Item",
+            "subheading": "60% Organic Cotton \/ 40% recycled Nylon \/ Polyurethane Membrane",
+            "title": "Down Shell",
+            "content": "<p>Daunenkammern geschweißt, nicht genäht. Diese Technologie verhindert den Wassereintritt an den Nähten. Der 2-lagige Membran Stoff auf der Außenseite macht die Jacke wasserfest. Die innere Lage aus recyceltem Polyester bildet das Futter. Dank des hohen Baumwollanteils behält der Oberstoff eine matte, natürliche Optik. Der Nylonanteil schützt das Gewebe gegen Abrieb.<br\/><br\/><strong>Außen und Innen:<\/strong> 60% Bio-Baumwolle, 40% recyceltes Nylon<br\/><strong>Dazwischen:<\/strong> Polyurethan Membran<br\/><strong>Finish:<\/strong> PFC-freies, hydrophobes Finish<br\/><strong>Füllung:<\/strong> Recycelte Polyester Fasern als Daunenersatz<\/p><p>- wasserfest<br\/>- winddicht<br\/>- atmungsaktiv<br\/>- Membran<br\/>- recycelt<\/p>",
+            "button_text": "Discover Down Shell Styles",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16576373813be35f84-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16583933695fed9267": {
+      "type": "image-with-text",
+      "blocks": {
+        "1658393369b3e0f9c0-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_4.jpg",
+            "tab_label": "Item",
+            "subheading": "91% recycled Nylon \/ 9% Elastane",
+            "title": "Light Nylon Stretch",
+            "content": "<p>Ein sehr leichtes, dicht gewebtes Nylongewebe, das dank des hohen Stretchanteils eine gute Bewegungsfreiheit garantiert. Nylon ist zudem reiß und abriebfest.<br\/><br\/>Zusammengefaßt ergibt sich ein wunderbar leichter und fester Stoff für leichte Übergangsjacken.   <\/p>",
+            "button_text": "DISCOVER LIGHT NYLON STRETCH STYLES",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658393369b3e0f9c0-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16583934785b242078": {
+      "type": "image-with-text",
+      "blocks": {
+        "16583934783c6eac79-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_3.jpg",
+            "tab_label": "Item",
+            "subheading": "100% recycled Polyester",
+            "title": "Parachute Pongee",
+            "content": "<p>Recyceltes Polyester in sehr feiner Ausspinnung, flach und dicht gewebt. Das Gefühl des Stoffes erinnert an Fallschirmseide. <\/p><p><strong>Finish:<\/strong> PFC-freies, hydrophobes Finish<\/p><p>- wasserfest<br\/>- winddicht<\/p>",
+            "button_text": "DISCOVER PARACHUTE PONGEE STYLES",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16583934783c6eac79-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165839546960a07dc3": {
+      "type": "image-with-text",
+      "blocks": {
+        "16583954698a6f93c8-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_2.jpg",
+            "tab_label": "Item",
+            "subheading": "60% Virgin Wool \/ 20% Organic Cotton \/ 20% Lyocell",
+            "title": "Woolen Faux Fur",
+            "content": "<p>Zwei Lagen werden zu einem einzigartigen Plüschstoff<br\/>aus natürlichen Fasern verbunden. Das flauschige Flor ist aus reiner<br\/>Schurwolle, im Untergrund gebunden in einem Strick aus Biobaumwolle. Die Abseite des Stoffes bildet ein feiner Lyocell Jersey, der die Funktion des Futters übernimmt: soft und nicht stoppend.<\/p><p><strong>Außen:<\/strong> 100% Schurwolle<\/p><p><strong>Innen:<\/strong> 100% Lyocell-Jersey<\/p><p>- weicher Griff<br\/>- voluminös und warm<\/p>",
+            "button_text": "DISCOVER WOOLEN FAUX FUR STYLES",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16583954698a6f93c8-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165839376738e3b18e": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Design_ohne_Titel_2.png",
+        "subheading": "",
+        "title": "Rizinusöl",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "bottom_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "165839497044aa8e95": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Die biobasierte Ressource für Polyamid-Polymere (Nylon).<\/p><p>Die Rizinuspflanze ist eine sehr robuste Pflanze, die fast ohne Pestizide auskommt. Es wird in halbtrockenen Gebieten auf schlechter Bodenqualität angebaut. Der Wasserverbrauch ist relativ gering. Die Pflanze steht also nicht in Konkurrenz zu den traditionellen Nahrungspflanzen. Sie wächst hervorragend ohne genetische Manipulation der Samen.<\/p><p>Das aus den Samen gewonnene Rizinusöl stellt eine nicht-fossile Alternative zur<br\/>Herstellung von Polyamid-Polymeren dar. Damit leisten die biobasierten<br\/>Kunststoffe einen wertvollen Beitrag zum Klimaschutz.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16583935906b0e423d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1658393590350424f3-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_1.jpg",
+            "tab_label": "Item",
+            "subheading": "100% Bio based Nylon \/ Bio based Membrane",
+            "title": "Bio based Allweather",
+            "content": "<p>Ein sehr leichtes, dicht gewebtes Nylongewebe in Ripstop Optik.  Ideal für Regenwetter dank dichter Webart und innenliegender Pebax Membran. Nylon ist sehr resistent gegen Abrieb und reißfest.<\/p><p><strong>Außen:<\/strong> 100% bio basiertes Nylon<\/p><p><strong>Innen:<\/strong> Pebax Membran, teilweise aus nachwachsenden<br\/>Rohstoffen<\/p><p><strong>Finish:<\/strong> PFC-freies, hydrophobes Finish<\/p>",
+            "button_text": "DISCOVER BIO BASED ALLWEATHER STYLES",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658393590350424f3-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1658395277ef747cd3": {
+      "type": "image-with-text",
+      "blocks": {
+        "16583952773dc731d1-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_5.jpg",
+            "tab_label": "Item",
+            "subheading": "100% Bio based Nylon \/ Bio based Membrane",
+            "title": "Bio based Down Shell",
+            "content": "<p>Der Oberstoff in Ripstop Optik aus nachwachsenden<br\/>Rohstoffen. Der 2-lagige Membran Stoff auf der Außenseite macht die Jacke wind und wasserfest. Das material ist leicht und geschmeidig, beleibt auf Grund des Nylons reiß- und abriebfest.<\/p><p><strong>Außen:<\/strong> 100% bio basiertes Nylon<\/p><p><strong>Innen:<\/strong> Pebax Membran, teilweise aus nachwachsenden<br\/>Rohstoffen<\/p><p><strong>Finish:<\/strong> PFC-freies, hydrophobes Finish<\/p>",
+            "button_text": "DISCOVER BIO BASED DOWN SHELL STYLES",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16583952773dc731d1-0"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -309,12 +542,20 @@
     "165763198140b07a71",
     "165763107177ab4cfe",
     "1657631143c665fbf6",
+    "165763759741034359",
     "1657631280338a88b5",
     "165763175385702ea0",
+    "165839113910ecd69f",
+    "1657637485282d4799",
     "1657633169676d16cf",
     "1657637280ba08a167",
     "1657637381b8e64644",
-    "1657637485282d4799",
-    "165763759741034359"
+    "16583933695fed9267",
+    "16583934785b242078",
+    "165839546960a07dc3",
+    "165839376738e3b18e",
+    "165839497044aa8e95",
+    "16583935906b0e423d",
+    "1658395277ef747cd3"
   ]
 }

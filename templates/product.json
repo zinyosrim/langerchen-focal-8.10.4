@@ -26,12 +26,19 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
+        },
+        "a99150ba-591a-4417-9658-d0c64c1d79d9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% render 'dc-product-attributes' %}"
+          }
         }
       },
       "block_order": [
         "c3f0a9be-3421-4843-a240-bdcf5d2b66ce",
         "variant_picker",
-        "buy_buttons"
+        "buy_buttons",
+        "a99150ba-591a-4417-9658-d0c64c1d79d9"
       ],
       "settings": {
         "show_vendor": false,
@@ -82,6 +89,27 @@
             "page": ""
           }
         },
+        "21accd2b-af3e-4cec-86f9-db0c2e91ccd5": {
+          "type": "liquid",
+          "settings": {
+            "title": "Details",
+            "liquid": "{{ product.metafields.product-details.Details }}"
+          }
+        },
+        "ca27842c-260b-420a-b824-0697556603d9": {
+          "type": "liquid",
+          "settings": {
+            "title": "Eco",
+            "liquid": "{{ product.metafields.product-details.Eco }}"
+          }
+        },
+        "488c64d1-bb9a-457a-b8b8-bf57a170bc32": {
+          "type": "liquid",
+          "settings": {
+            "title": "Care",
+            "liquid": "{{ product.metafields.product-details.Care }}"
+          }
+        },
         "4b2a74fa-a29b-4c35-a8e6-9fde9d19cde9": {
           "type": "content",
           "settings": {
@@ -96,6 +124,9 @@
         "c4009be7-9840-4929-940a-1e3b7a7a8593",
         "bcb12f4a-5532-49e3-a79d-7395721e0258",
         "28945b40-8253-4ad5-9c8a-125012c0a2cd",
+        "21accd2b-af3e-4cec-86f9-db0c2e91ccd5",
+        "ca27842c-260b-420a-b824-0697556603d9",
+        "488c64d1-bb9a-457a-b8b8-bf57a170bc32",
         "4b2a74fa-a29b-4c35-a8e6-9fde9d19cde9"
       ],
       "settings": {

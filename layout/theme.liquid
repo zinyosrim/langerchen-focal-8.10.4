@@ -17,6 +17,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
 
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ direction }}">
   <head>
+    {% include 'kiwiSizing' %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="{{ settings.header_background }}">
@@ -80,7 +81,9 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
     {{ content_for_header }}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script type="text/javascript">var webyzeMultiProductColorsRunningCall=!1,webyzeMultiProductColorsQueuedCall=!1;window.webyzeMultiProductColorsLoad=function(){var a,o=(a={'"':"&quot;","&":"&amp;","<":"&lt;",">":"&gt;"},function(t){return t.replace(/[\"&<>]/g,function(t){return a[t]})}),e=$(".webyze-multi-product-colors:not(.webyze-loaded)").map(function(){return $(this).attr("data-product-id")}).get();e&&0!=e.length&&(webyzeMultiProductColorsRunningCall?webyzeMultiProductColorsQueuedCall=!0:(webyzeMultiProductColorsQueuedCall=!(webyzeMultiProductColorsRunningCall=!0),$.ajax({method:"GET",url:"https://s-pc.webyze.com/ProductColors/multi-productGroups-"+Shopify.shop.split(".")[0]+".json?"+e.map(t=>"&prodId[]="+t).join(""),dataType:"json"}).done(function(t){Array.isArray(t)&&(t.forEach(function(t){var a;Array.isArray(t)&&(t.map(function(t){return t.id}),a="",t.forEach(function(t){if(a+='<span class="swatchProductColor swatchType_'+t.type+'" data-id="'+t.id+'" data-name="'+o(t.name)+'" data-handle="'+o(t.handle)+'" data-image="'+o(t.image)+'">',window.webyzeProductColors_useProdImage)a+="<div style=\"background-image: url('"+t.image.replace(/\.(png|jpg|jpeg|bmp)/,window.webyzeProductColors_prodImageLarge?"_large.$1":"_small.$1")+"');background-size: cover;\"></div>";else switch(t.type){case"two_colors":t.data=t.data.split("|"),a+='<div><div style="background:'+t.data[0]+';"></div><div style="background:'+t.data[1]+';"></div></div>';break;case"image":a+="<div style=\"background-image: url('https://s-pc.webyze.com/ProductColors/uploads/"+t.data+"');\"></div>";break;default:a+='<div style="background:'+t.data+';"></div>'}a+='<span class="webyzeTooltip"><span></span><span class="innerText">'+o(t.name)+"</span><span></span></span></span>"}),$(t.map(function(t){return'.webyze-multi-product-colors[data-product-id="'+t.id+'"]'}).join(", ")).addClass("webyze-loaded").html(a))}),$(".webyze-multi-product-colors").each(function(t){var a=$(this);a.find('[data-id="'+a.attr("data-product-id")+'"]').addClass("currentSwatch")}).find(".swatchProductColor").on("click",function(t){t.preventDefault(),window.location.href="/products/"+$(this).data("handle")}).on("mouseenter",function(){var t=$(this).attr("data-image").replace(/\.(jpg|png|jpeg)/,"_large.$1");0===t.indexOf("https://")&&$(this).closest(".product-wrap, .product__thumbnail, .grid__item, .product__grid-item, .grid-item").find("img").attr("src",t).attr("srcset",t)}),$(e.map(function(t){return'.webyze-multi-product-colors[data-product-id="'+t+'"]'}).join(", ")).addClass("webyze-loaded"))}).fail(function(){}).always(function(){webyzeMultiProductColorsRunningCall=!1,webyzeMultiProductColorsQueuedCall&&window.webyzeMultiProductColorsLoad()})))};</script>
-	</head>
+  {% render 'weglot_hreftags' %}
+  {% render 'weglot_switcher' %}	
+ </head>
 
   {%- assign feature_classes = '' -%}
 

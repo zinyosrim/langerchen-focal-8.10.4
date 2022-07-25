@@ -1,13 +1,13 @@
 {
   "sections": {
-    "16540015621920555f": {
+    "165842633712969d7a": {
       "type": "slideshow",
       "blocks": {
-        "16540015625f72feea-0": {
+        "1658426337643a3621-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_5.jpg",
-            "split_image": "shopify:\/\/shop_images\/02_4.jpg",
+            "image": "shopify:\/\/shop_images\/Header_Desktop_09.06._1800_x_900_px.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Header_Mobile_09.06._a9351135-01a5-4f4c-82ad-388df032566c.jpg",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
@@ -24,6 +24,41 @@
         }
       },
       "block_order": [
+        "1658426337643a3621-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "16540015621920555f": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "16540015625f72feea-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Header_Desktop_09.06._1800_x_800_px_1800_x_900_px_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Header_Desktop_09.06._1800_x_800_px_1800_x_900_px_1199_x_1321_px.png",
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "WOMEN",
+            "button_1_link": "https:\/\/langerchen.com\/collections\/div-style-text-align-center-rainwear",
+            "button_2_text": "MEN",
+            "button_2_link": "",
+            "text_color": "#bc886f",
+            "button_background": "#f5f5f5",
+            "button_text_color": "#bc886f",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
         "16540015625f72feea-0"
       ],
       "settings": {
@@ -34,22 +69,190 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "16540023939ffb16a4": {
-      "type": "rich-text",
+    "1658415247afada0a1": {
+      "type": "slideshow",
       "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1658425245e59b0ca6": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "165842524558092dff-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "165842524558092dff-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "165842524558092dff-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "165842524558092dff-0",
+        "165842524558092dff-1",
+        "165842524558092dff-2"
+      ],
+      "settings": {
+        "product": "jx02cn01-langerchen-jacket-fairford-reed",
         "subheading": "",
-        "title": "Wherever you go – consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-        "content": "",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "left",
-        "text_alignment": "left",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
         "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165841561150c68a40": {
+      "type": "slideshow",
+      "blocks": {
+        "165841561193a48f93-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_1_927eb1ac-f220-4f41-80de-419931fb1fef.jpg",
+            "split_image": "shopify:\/\/shop_images\/Design_ohne_Titel_6ff4f77b-49f6-4cf3-9efc-d73588219ed9.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Kein_Titel_1400_x_1400_px.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "DISCOVER WOMEN",
+            "button_1_link": "https:\/\/langerchen.com\/collections\/spring-women",
+            "button_2_text": "DISCOVER MEN",
+            "button_2_link": "https:\/\/langerchen.com\/collections\/spring-men",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        }
+      },
+      "block_order": [
+        "165841561193a48f93-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "16584160569a2a40f4": {
+      "type": "slideshow",
+      "blocks": {
+        "165841605615ebfe67-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TENCEL_LINEN_DESKTOP_ab5c62ba-1f4c-487d-a97e-8ca61df0cbe9.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/TENCEL_LINEN_MOBILE_471ff7c8-49c8-4490-a2fb-bebcfbc48958.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "https:\/\/langerchen.com\/collections\/organic-linen-1",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "165841605615ebfe67-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1658415932a42a4ab2": {
+      "type": "featured-product",
+      "blocks": {
+        "1658415932a3cbbd83-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "1658415932a3cbbd83-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1658415932a3cbbd83-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "1658415932a3cbbd83-0",
+        "1658415932a3cbbd83-1",
+        "1658415932a3cbbd83-2"
+      ],
+      "settings": {
+        "product": "v501co08-langerchen-vest-mason-platinum",
+        "subheading": "",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "165649830741e02fac": {
@@ -116,41 +319,55 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "165824379283a7a170": {
-      "type": "featured-collections",
+    "16584217150f3c1dfe": {
+      "type": "slideshow",
       "blocks": {
-        "165824379296fa03cd-0": {
-          "type": "collection",
+        "16584217159b9184fb-0": {
+          "type": "image",
           "settings": {
-            "collection": "navy-forever",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        },
-        "3b2e378f-f2ec-4e8d-aeb8-266f044624a4": {
-          "type": "collection",
-          "settings": {
-            "collection": "navy-forever-women",
-            "label": "Women",
-            "button_text": "All Navy forever for Women",
-            "button_url": ""
-          }
-        },
-        "564c8130-a2e4-45ec-a4ed-aef8ef2d3585": {
-          "type": "collection",
-          "settings": {
-            "collection": "navy-forever",
-            "label": "Men",
-            "button_text": "All Navy forever for Men",
-            "button_url": "shopify:\/\/collections\/navy-forever"
+            "image": "shopify:\/\/shop_images\/coated_linen_desktop_79c8a6e2-d7cb-4346-b87a-9b8af7671fa4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Coated_linen_mobile_1_853ba283-d27d-41d5-8bee-529239aaaaa0.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "https:\/\/langerchen.com\/collections\/coated-linen",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "165824379296fa03cd-0",
-        "3b2e378f-f2ec-4e8d-aeb8-266f044624a4",
-        "564c8130-a2e4-45ec-a4ed-aef8ef2d3585"
+        "16584217159b9184fb-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "165824379283a7a170": {
+      "type": "featured-collections",
+      "blocks": {
+        "3b2e378f-f2ec-4e8d-aeb8-266f044624a4": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy-forever",
+            "label": "",
+            "button_text": "DISCOVER ALL \"Navy forever\" STYLES",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "3b2e378f-f2ec-4e8d-aeb8-266f044624a4"
       ],
       "settings": {
         "subheading": "",
@@ -166,8 +383,44 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "165842544601d09b1d": {
+      "type": "slideshow",
+      "blocks": {
+        "16584254464aab45a2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Header_Desktop_09.06._1800_x_800_px_1800_x_900_px_1199_x_1321_px_1080_x_1080_px_1.jpg",
+            "split_image": "shopify:\/\/shop_images\/Header_Desktop_09.06._1800_x_800_px_1800_x_900_px_1199_x_1321_px_1080_x_1080_px_2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Header_Desktop_09.06._1800_x_800_px_1800_x_900_px_1199_x_1321_px_1080_x_1080_px_1000_x_1400_px.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "The Blazers",
+            "button_1_link": "https:\/\/langerchen.com\/collections\/the-blazers",
+            "button_2_text": "Sommer Parkas",
+            "button_2_link": "https:\/\/langerchen.com\/collections\/summer-parkas-2",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        }
+      },
+      "block_order": [
+        "16584254464aab45a2-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
     "165400323037662882": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "16540032303a0869c2-0": {
           "type": "image",
@@ -195,13 +448,14 @@
       "settings": {
         "section_height": "auto",
         "transition_type": "sweep",
-        "autoplay": true,
+        "autoplay": false,
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
     },
     "165659271380adfa58": {
       "type": "dc-featured-product",
+      "disabled": true,
       "blocks": {
         "5688e17c-6e99-49ff-a3ce-a8d018691d65": {
           "type": "text",
@@ -250,6 +504,7 @@
     },
     "165400454278f2b729": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "165400454204b61f0d-0": {
           "type": "item",
@@ -292,9 +547,9 @@
             "subheading": "",
             "title": "",
             "button_1_text": "Wie wir arbeiten",
-            "button_1_link": "",
-            "button_2_text": "Veranwortung, die wir haben",
-            "button_2_link": "",
+            "button_1_link": "https:\/\/langerchen.myshopify.com\/admin\/pages\/102107480328",
+            "button_2_text": "Verantwortung, die wir haben",
+            "button_2_link": "https:\/\/langerchen.com\/pages\/unsere-stoffe",
             "text_color": "#ffffff",
             "button_background": "#9c9e9f",
             "button_text_color": "#ffffff",
@@ -316,11 +571,18 @@
     }
   },
   "order": [
+    "165842633712969d7a",
     "16540015621920555f",
-    "16540023939ffb16a4",
+    "1658415247afada0a1",
+    "1658425245e59b0ca6",
+    "165841561150c68a40",
+    "16584160569a2a40f4",
+    "1658415932a42a4ab2",
     "165649830741e02fac",
     "1656592756dee382b0",
+    "16584217150f3c1dfe",
     "165824379283a7a170",
+    "165842544601d09b1d",
     "165400323037662882",
     "165659271380adfa58",
     "shop-the-look",
