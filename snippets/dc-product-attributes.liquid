@@ -130,6 +130,12 @@
                 {% if product.metafields.custom.certification != "" %}
                     {% render 'dc-icon', icon: product.metafields.custom.certification %}
                 {% endif %}
+                {% comment %} for flex theme compatibility - delete after SP2022 products are sold  {% endcomment %}
+                {% if product.metafields.certifications != "" %}
+                    {% for kv in product.metafields.certifications %}
+                     {% render 'dc-icon', icon: kv[0] %}
+                    {% endfor %}
+                {% endif %}
                 {% comment %} Fair icon {% endcomment %}
                 {% render 'dc-icon', icon: 'fair' %} 
             </div>
