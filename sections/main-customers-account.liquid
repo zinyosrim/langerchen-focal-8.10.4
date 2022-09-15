@@ -158,7 +158,7 @@
                       </div>
 
                       {%- render 'pagination', paginate: paginate -%}
-                    {%- endpaginate -%}
+                    {% assign sp_paginate_by = paginate.page_size %}{%- endpaginate -%}
                 {%- endcase -%}
               </div>
             {%- endfor -%}
@@ -169,7 +169,7 @@
   </div>
 </section>
 
-{% schema %}
+{% if sp_paginate_by %}{% render 'spurit_po2_collection_template_snippet', paginate_by: sp_paginate_by %}{% endif %}{% schema %}
 {
   "name": "Customer account",
   "class": "shopify-section--main-customers-account",

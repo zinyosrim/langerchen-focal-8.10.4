@@ -85,7 +85,7 @@
             {% endif %}
             
             <div class="dc-product-attribute-title">
-                Regenschutz >  <a class="dc-link" href = 'pages/funktion'> Details</a>
+                Regenschutz >  <a class="dc-link" href = '/pages/wassersaeule'> Details</a>
             </div>
             <div class="dc-product-attribute-content">
                 <div class="dc-product-attribute-icons">
@@ -105,7 +105,7 @@
     {% if product.metafields.custom.schneeflocken > 0 %}
         <div class="dc-product-attribute">
             <div class="dc-product-attribute-title">
-                Kälteschutz >  <a class="dc-link" href = 'pages/funktion'> Details</a>
+                Kälteschutz >  <a class="dc-link" href = '/pages/kaelteschutz'> Details</a>
             </div>
             <div class="dc-product-attribute-icons">
                 {% assign schneeflocken =  product.metafields.custom.schneeflocken | times: 1 %}
@@ -127,7 +127,8 @@
         <div class="dc-product-attribute-content">
             <div class="dc-product-attribute-icons">
                 {% comment %} certification icon {% endcomment %}
-                {% if product.metafields.custom.certification != "" %}
+                {%- assign certification = product.metafields.custom.certification.value | metafield_text -%}
+                {% if certification != blank %}
                     {% render 'dc-icon', icon: product.metafields.custom.certification %}
                 {% endif %}
                 {% comment %} for flex theme compatibility - delete after SP2022 products are sold  {% endcomment %}

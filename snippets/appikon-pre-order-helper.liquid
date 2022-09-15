@@ -1,0 +1,76 @@
+{% comment %}
+    Don't edit this file.
+    This snippet is auto generated and will be overwritten.
+    {% endcomment %}
+
+
+<script id="pre-order-helper">
+    var _POConfig = _POConfig || {};
+
+    _POConfig = {
+      "app_hostname": "oasl8if153.execute-api.us-west-1.amazonaws.com",
+      "instock_qty_level": 1,
+      "preorder_enabled": true,
+      "require_inventory_management": true,
+      "ignore_duplicate_skus": false,
+      "generic_trigger_handler": true,
+      "quantity_field_enabled": false,
+      "button": {
+                "caption": "Pre Order",
+                "visible": true,
+                "widget_button_enabled": true,
+                "buttonBackgroundColor": "",
+                "buttonBorderColor": "",
+                "buttonBorderRadius": "",
+                "buttonBorderWidth": "",
+                "buttonColor": "",
+                "buttonPaddingLeft": "",
+                "buttonPaddingTop": "",
+                "buttonFontSize": "",
+                "buttonFontFamily": "",
+                "buttonFontWeight": "",
+                "buttonTextDecoration": "",
+                "buttonMarginTop": "",
+                "buttonMarginBottom": ""
+      },
+      "selectors": {
+        "payment_button_selectors" : "form[action$='/cart/add'] .shopify-payment-button",
+        "atcButtonSelector": "",
+         "cartLabelSelector": ""
+      },
+      "partials": {},
+      "shop": "langerchen.myshopify.com",
+      "defaultSetting": {"quantityLimit":0,"overallQuantityLimit":0,"totalQuantityOrdered":0,"buttonText":"Pre Order","buttonMessage":"We will fulfill the order as soon as this item becomes available","buttonMessageVisibility":"ALWAYS","cartCheckoutLabel":"Pre-ordered items","preOrderTimeEnable":false,"dateStart":"-1","dateStop":"-1","discountValue":0.0,"discountType":"PERCENTAGE","orderTag":"appikon-pre-order","comingSoonEnable":false,"comingSoonHeader":"Coming Soon","comingSoonMessage":"Dropping on","comingSoonAvailableFrom":"-1","showPreOrderLabelOnCollectionPage":false,"collectionPagePreOrderLabelText":"","collectionPagePreOrderLabelClass":"","collectionPagePreOrderLabelCSS":"","preOrderClosedMessage":"Sold Out"}
+    };
+
+    _POConfig.shop = '{{shop.permanent_domain}}';
+
+
+    {% if product %}
+    _POConfig.productSettings = {{ product.metafields.appikon_po.settings.productSettings }};
+    _POConfig.variantSettings = {{ product.metafields.appikon_po.settings.variantSettings }};
+    _POConfig.product = {{ product | json }};
+    _POConfig.product.collections = {{ product.collections | json }};
+
+    {% for variant in product.variants %}
+    _POConfig.product.variants[{{forloop.index | minus: 1 }}]['inventory_quantity'] = {{ variant.inventory_quantity }};
+    {% endfor %}
+
+     _POConfig.product.selected_or_first_available_variant = {{ product.selected_or_first_available_variant | json }};
+    _POConfig.product.selected_or_first_available_variant['inventory_quantity'] = {{ product.selected_or_first_available_variant.inventory_quantity }};
+    {% endif %}
+
+    {% if cart %}
+      {% for item in cart.items %}
+      	{% if item.product.metafields.appikon_po.settings.productSettings  %}
+        	var cartProductSettings = {{ item.product.metafields.appikon_po.settings.productSettings }}
+            _POConfig.productSettings = Object.assign({}, _POConfig.productSettings, cartProductSettings)
+        {% endif %}
+        {% if item.product.metafields.appikon_po.settings.variantSettings  %}
+        	var cartVariantSettings = {{ item.product.metafields.appikon_po.settings.variantSettings }}
+            _POConfig.variantSettings = Object.assign({}, _POConfig.variantSettings, cartVariantSettings)
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+</script>

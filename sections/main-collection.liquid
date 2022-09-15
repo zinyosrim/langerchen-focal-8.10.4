@@ -237,7 +237,7 @@
             </product-list>
 
             {%- render 'pagination', paginate: paginate, use_ajax: true -%}
-          {%- endpaginate -%}
+          {% assign sp_paginate_by = paginate.page_size %}{%- endpaginate -%}
 
           {%- if section.settings.promotion_position == 'bottom' -%}
             {{- promotion_blocks -}}
@@ -266,7 +266,7 @@
   </div>
 </section>
 
-{% schema %}
+{% if sp_paginate_by %}{% render 'spurit_po2_collection_template_snippet', paginate_by: sp_paginate_by %}{% endif %}{% schema %}
 {
   "name": "Collection page",
   "class": "shopify-section--main-collection",

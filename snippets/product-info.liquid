@@ -22,17 +22,29 @@
       {% endcomment %}
       {% comment %} Dual Citizen 2021 - Remove Color and GOTS from product title {% endcomment %}
       <h1 class="product-meta__title heading h3">{% render 'dc-product-name', product_name: product.title %}</h1>
+      
       {%- if product.description != blank -%}
         <div class="product-form__description rte" {{ block.shopify_attributes }}>
-          {{- product.description -}}
+          {% comment %}{{- product.description -}}{% endcomment %}
+          {% comment %} Dual Citizen DC 2022 - Use metafield instead description {% endcomment %}
+          {%- if product.metafields.custom.kurzbeschreibung != blank -%}
+            {{- product.metafields.custom.kurzbeschreibung -}}
+          {%- else -%}
+            {{- product.description -}}
+          {%- endif -%}
+          {% comment %} End of Dual Citizen DC 2022 - Use metafield instead description {% endcomment %}
         </div>
+      {%- else -%}
+        {%- if product.metafields.custom.kurzbeschreibung != blank -%}
+            {{- product.metafields.custom.kurzbeschreibung -}}
+        {%- endif -%}
       {%- endif -%}
     {% else %}
       <h2 class="product-meta__title heading h3">
         <a href="{{ product.url }}">{{ product.title }}</a>
       </h2>
       {% comment %} End of Dual Citizen 2021 - Remove Color and GOTS from product title {% endcomment %}
-      <p class="dc-product-description">{{ product.description }}</p>
+      <p class="dc-product-description">{{ product.metafields.custom.kurzbeschreibung }}</p>
     {% else %}
       <h2 class="product-meta__title heading h3">
         <a href="{{ product.url }}">{{ product.title }}</a>
@@ -52,7 +64,7 @@
             {%- endif -%}
           </span>
 
-          <span class="price price--compare">
+            <span class="price price--compare">
             <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
 
             {%- if settings.currency_code_enabled -%}

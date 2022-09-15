@@ -22,7 +22,7 @@
         "link_style": "link",
         "background_type": "full_width",
         "text_width": "medium",
-        "text_position": "bottom_left",
+        "text_position": "bottom_center",
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
@@ -40,12 +40,117 @@
         "button_link": "",
         "background_type": "full_width",
         "text_width": "large",
-        "text_position": "left",
-        "text_alignment": "left",
+        "text_position": "center",
+        "text_alignment": "center",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1663077844870478d4": {
+      "type": "collection-list",
+      "blocks": {
+        "1663077844de51beb3-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "boiled-eco-wool",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_6.jpg",
+            "subheading": "100% Organic Wool",
+            "title": "Boiled Eco Wool",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/boiled-eco-wool",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "1663077844de51beb3-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel.jpg",
+            "subheading": "100% Organic wool",
+            "title": "Woolen Checks",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1663077844de51beb3-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_7.jpg",
+            "subheading": "85% Organic Wool \/ 15% Organic Cotton \/ Polyurethane Membrane",
+            "title": "Techno Felt - 3 Layer",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1663077844de51beb3-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_8.jpg",
+            "subheading": "100% Organic Wool \/ Polyurethane Membrane",
+            "title": "Techno Felt - 2 Layer",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1663077844de51beb3-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie.jpg",
+            "subheading": "100% Organic Cotton",
+            "title": "2-Ply Twill",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1663077844de51beb3-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_Kopie_9.jpg",
+            "subheading": "50% Organic Cotton \/ 32% recyceltes Polyester \/ 18% Polyester \/ Polyurethane Membrane",
+            "title": "Storm Pop 3 Layer",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "1663077844de51beb3-0",
+        "1663077844de51beb3-1",
+        "1663077844de51beb3-2",
+        "1663077844de51beb3-3",
+        "1663077844de51beb3-4",
+        "1663077844de51beb3-5"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "1657631143c665fbf6": {
@@ -543,6 +648,7 @@
     "main",
     "165763198140b07a71",
     "165763107177ab4cfe",
+    "1663077844870478d4",
     "1657631143c665fbf6",
     "165763759741034359",
     "1657631280338a88b5",

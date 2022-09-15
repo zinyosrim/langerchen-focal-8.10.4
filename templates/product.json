@@ -71,14 +71,14 @@
           "type": "liquid",
           "settings": {
             "title": "Details",
-            "liquid": "{{ product.metafields.custom.details }}"
+            "liquid": "{%  render 'dc-product-accordion-details-tab' %}"
           }
         },
         "bcb12f4a-5532-49e3-a79d-7395721e0258": {
           "type": "liquid",
           "settings": {
             "title": "Material & Eco",
-            "liquid": "{{ product.metafields.custom.material_eco.value }}"
+            "liquid": "{%  render 'dc-product-accordion-material-eco-tab' %}"
           }
         },
         "28945b40-8253-4ad5-9c8a-125012c0a2cd": {
@@ -134,12 +134,18 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "subheading": "",
-        "title": "Was Dir noch gefallen könnte",
+        "title": "GET YOUR FREE POUCH",
         "recommendations_count": 4,
         "products": [
-
+          "ac10li01-langerchen-large-pouch-craft",
+          "ac09li01-langerchen-small-pouch-eclipse",
+          "ac10li01-langerchen-large-pouch-jade",
+          "ac09li01-langerchen-small-pouch-craft",
+          "ac10li01-langerchen-large-pouch-eclipse",
+          "ac09li01-langerchen-small-pouch-jade"
         ],
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"

@@ -153,7 +153,7 @@
     },
     "product": {
       "sold_out": "Ausverkauft",
-      "discount_html": "Spare {{ savings }}",
+      "discount_html": "- {{ savings }}",
       "from_price_html": "Ab {{ price_min }}",
       "add_to_cart": "+ In den Warenkorb",
       "add_to_cart_short": "In den Warenkorb",

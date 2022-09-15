@@ -22,7 +22,7 @@
     "product_in_stock_text_color": "#2e9e7b",
     "product_low_stock_text_color": "#de2a2a",
     "heading_font": "din_next_n3",
-    "heading_font_size": "medium",
+    "heading_font_size": "small",
     "heading_text_transform": "normal",
     "text_font": "din_next_n4",
     "text_font_size": 15,
@@ -32,13 +32,19 @@
     "color_swatch_config": "blau: #1572C5\nbraun:#AE802B\ncreme:#E9CD9A\ngelb:#E7DD11\ngrau:#B6B6B6\ngrün:#6CAD15\nkhaki:#D6C14C\noliv:#a49a7c\nmilitary:#56563e\nrosa:#EF99C9\nrot:#DD3A1D\nschwarz:#060606",
     "show_vendor": false,
     "show_secondary_image": true,
+    "product_add_to_cart": false,
     "show_product_rating": false,
-    "discount_mode": "saving",
+    "discount_mode": "percentage",
     "product_color_display": "count",
     "product_image_size": "natural",
+    "search_enable_products": true,
+    "search_enable_blog_posts": false,
+    "search_enable_pages": true,
+    "search_enable_collections": true,
+    "search_unavailable_products": "hide",
     "cart_type": "message",
     "cart_icon": "shopping_bag",
-    "cart_show_free_shipping_threshold": true,
+    "cart_show_free_shipping_threshold": false,
     "social_facebook": "https:\/\/facebook.com\/langerchenfashion\/",
     "social_instagram": "https:\/\/www.instagram.com\/langerchenofficial",
     "checkout_sidebar_background_color": "#f5f5f5",
@@ -80,17 +86,14 @@
       "header": {
         "type": "header",
         "blocks": {
-          "1109f137-1b4c-4bc6-b1c8-103c77b6fc6a": {
+          "45bb2d11-82f3-4ec1-9fe1-7e9bb8ce69ab": {
             "type": "mega_menu",
-            "disabled": true,
             "settings": {
-              "menu_item": "women",
+              "menu_item": "Men",
               "images_position": "right",
-              "image_1": "shopify:\/\/shop_images\/Header_Desktop_09.06._1_02cef332-b08c-4254-b21e-e5ae7fe7d6c4.jpg",
               "image_1_heading": "",
               "image_1_text": "",
               "image_1_link": "",
-              "image_2": "shopify:\/\/shop_images\/coated_linen_desktop.jpg",
               "image_2_heading": "",
               "image_2_text": "",
               "image_2_link": "",
@@ -108,11 +111,60 @@
               "image_6_link": ""
             }
           },
-          "45bb2d11-82f3-4ec1-9fe1-7e9bb8ce69ab": {
+          "82a13e31-0bf0-405c-9759-52a550f9e514": {
             "type": "mega_menu",
-            "disabled": true,
             "settings": {
-              "menu_item": "Men",
+              "menu_item": "Women",
+              "images_position": "right",
+              "image_1_heading": "",
+              "image_1_text": "",
+              "image_1_link": "",
+              "image_2_heading": "",
+              "image_2_text": "",
+              "image_2_link": "",
+              "image_3_heading": "",
+              "image_3_text": "",
+              "image_3_link": "",
+              "image_4_heading": "",
+              "image_4_text": "",
+              "image_4_link": "",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          },
+          "61febf4d-3fdd-4ac5-8286-d38751112dcf": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "About",
+              "images_position": "right",
+              "image_1_heading": "",
+              "image_1_text": "",
+              "image_1_link": "",
+              "image_2_heading": "",
+              "image_2_text": "",
+              "image_2_link": "",
+              "image_3_heading": "",
+              "image_3_text": "",
+              "image_3_link": "",
+              "image_4_heading": "",
+              "image_4_text": "",
+              "image_4_link": "",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          },
+          "a96c32e1-57de-4275-b1d3-9c6ab8a968e3": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Sustainability",
               "images_position": "right",
               "image_1_heading": "",
               "image_1_text": "",
@@ -136,15 +188,17 @@
           }
         },
         "block_order": [
-          "1109f137-1b4c-4bc6-b1c8-103c77b6fc6a",
-          "45bb2d11-82f3-4ec1-9fe1-7e9bb8ce69ab"
+          "45bb2d11-82f3-4ec1-9fe1-7e9bb8ce69ab",
+          "82a13e31-0bf0-405c-9759-52a550f9e514",
+          "61febf4d-3fdd-4ac5-8286-d38751112dcf",
+          "a96c32e1-57de-4275-b1d3-9c6ab8a968e3"
         ],
         "settings": {
           "enable_sticky_header": true,
           "logo": "shopify:\/\/shop_images\/LC_Logo_Web_100px.png",
           "logo_max_width": 200,
           "mobile_logo_max_width": 85,
-          "navigation_menu": "menu-sp2022",
+          "navigation_menu": "haupt-navigation",
           "sidebar_navigation_menu": "",
           "header_layout": "logo_center_navigation_inline",
           "show_icons": true,

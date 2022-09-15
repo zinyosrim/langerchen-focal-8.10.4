@@ -1,0 +1,57 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "165763198140b07a71": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1800_x_800_px_2160_x_1080_px_3.jpg",
+        "subheading": "",
+        "title": "Cold Sensation Scale",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "165763107177ab4cfe": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>LangerChen ist als nachhaltiges Modelabel gegründet worden. Wir setzen uns von der ersten Stunde an für eine umweltfreundliche Kollektion ein. Ein Wandel der Branche liegt uns sehr am Herzen.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165763198140b07a71",
+    "165763107177ab4cfe"
+  ]
+}

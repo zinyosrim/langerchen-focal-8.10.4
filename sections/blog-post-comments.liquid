@@ -30,7 +30,7 @@
             {%- endfor -%}
 
           {%- render 'pagination', paginate: paginate, hash: '#comments' -%}
-          {%- endpaginate -%}
+          {% assign sp_paginate_by = paginate.page_size %}{%- endpaginate -%}
         </div>
       {%- endif -%}
 
@@ -96,7 +96,7 @@
   </div>
 {%- endif -%}
 
-{% schema %}
+{% if sp_paginate_by %}{% render 'spurit_po2_collection_template_snippet', paginate_by: sp_paginate_by %}{% endif %}{% schema %}
 {
   "name": "Blog post comments",
   "class": "shopify-section--blog-post-comments",
