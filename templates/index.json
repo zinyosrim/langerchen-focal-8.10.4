@@ -229,8 +229,64 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "1663856694091242a9": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663856694801d2334-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_7.jpg",
+            "tab_label": "Item",
+            "subheading": "100% Bio Wolle",
+            "title": "Coat Tallulah Check",
+            "content": "<p>Der Mantel aus Wollwalk präsentiert sich mit überschnittener Schulterpartie und offener Schnittkantenverarbeitung.<\/p><p>Der Jacquard Stoff aus reiner Bio-Wolle ist weich, voluminös und gut wärmend.<\/p>",
+            "button_text": "Shop now",
+            "button_link": "https:\/\/langerchen.com\/products\/c030bj03-langerchen-coat-tallulah-check-original"
+          }
+        }
+      },
+      "block_order": [
+        "1663856694801d2334-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1663848295ddfc7e79": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_0fd98f40-5645-428c-9093-44f90d5d25f2.jpg",
+        "subheading": "100% Bio WOlle",
+        "title": "Coat Tallulah Check",
+        "content": "<p>Der Mantel aus Wollwalk präsentiert sich mit überschnittener Schulterpartie und offener Schnittkantenverarbeitung.<\/p><p>Der Jacquard Stoff aus reiner Bio-Wolle ist weich, voluminös und gut wärmend.<\/p>",
+        "button_text": "Shop this Style",
+        "button_link": "https:\/\/langerchen.com\/products\/c030bj03-langerchen-coat-tallulah-check-original",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_right",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "1661860717bb56af45": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "166186071706639530-0": {
           "type": "item",
@@ -336,13 +392,13 @@
         "1661935195bba4efdc-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_7.png",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_9.jpg",
             "tab_label": "Item",
-            "subheading": "",
-            "title": "Vest Danville (Brass)",
-            "content": "<p>Die überlange Daunenweste wärmt mit ihrer veganen Faserfüllung aus 100% recycelten PET Flaschen. Das Obermaterial besteht ebenfalls aus recyceltem Polyester und ist mit einem wasserabstoßendem Finish veredelt.<\/p><p>Egal ob lässig über einem Hoodie oder elegant über dem liebsten Wollmantel, die leichte Weste ist das perfekte Layering-Piece für die kalte Jahreszeit. Nur recycled Polyester - MONO Material - daher leicht recyclebar!<\/p>",
+            "subheading": "100% recyceltes Polyester",
+            "title": "Vest Danville",
+            "content": "<p>Egal ob lässig über einem Hoodie oder elegant über dem liebsten Wollmantel, die leichte Weste ist das perfekte Layering-Piece für die kalte Jahreszeit. Nur recycled Polyester - MONO Material - daher leicht recyclebar!<\/p>",
             "button_text": "Shop now",
-            "button_link": "https:\/\/langerchen.com\/products\/v003rp01-langerchen-vest-danville-brass"
+            "button_link": "https:\/\/langerchen.com\/products\/v003rp01-langerchen-vest-danville-black"
           }
         }
       },
@@ -354,6 +410,38 @@
         "background_type": "full_width",
         "background_overlap": "image",
         "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "166385719364dc5b01": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663857193c68c73f6-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_11.jpg",
+            "tab_label": "Item",
+            "subheading": "91% recyceltes Nylon \/ 9% Elastane",
+            "title": "Vest Mason",
+            "content": "<p>Mit drei großen aufgesetzen Taschen und dem abgerundetem Saum macht diese relaxed fit Weste eine gute Figur auf grobem Herbststrick. Oder als Midlayer getragen, sorgt sie mit ihrer Faserfüllung aus recycled PET Flaschen für angenehme Wärme.<\/p>",
+            "button_text": "Shop now",
+            "button_link": "https:\/\/langerchen.com\/products\/v501ny01-langerchen-vest-mason-brass"
+          }
+        }
+      },
+      "block_order": [
+        "1663857193c68c73f6-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
         "text_alignment": "left",
         "cycle_speed": 8,
         "accent_background": "rgba(0,0,0,0)",
@@ -631,6 +719,29 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
+    },
+    "1663856045224889dc": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_4.jpg",
+        "subheading": "100% recyceltes Polyester",
+        "title": "Vest Danville",
+        "content": "<p>Egal ob lässig über einem Hoodie oder elegant über dem <br\/>liebsten Wollmantel, die leichte Weste ist das perfekte Layering-Piece für die kalte Jahreszeit. <\/p><p>Nur recycled Polyester - MONO Material - daher leicht recyclebar!<\/p>",
+        "button_text": "Shop this Style",
+        "button_link": "https:\/\/langerchen.com\/products\/v003rp01-langerchen-vest-danville-black",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_left",
+        "text_color": "#494848",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -642,10 +753,13 @@
     "1659015523c6a3bdfd",
     "1658415247afada0a1",
     "16584160569a2a40f4",
+    "1663856694091242a9",
+    "1663848295ddfc7e79",
     "1661860717bb56af45",
     "16584217150f3c1dfe",
     "165841561150c68a40",
     "1661935195b910dc59",
+    "166385719364dc5b01",
     "166185914029cd803c",
     "16590105675174e070",
     "165649830741e02fac",
@@ -653,6 +767,7 @@
     "165842544601d09b1d",
     "165400323037662882",
     "165400454278f2b729",
-    "16565042244340630b"
+    "16565042244340630b",
+    "1663856045224889dc"
   ]
 }

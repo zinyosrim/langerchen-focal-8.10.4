@@ -15011,6 +15011,16 @@ shopify-payment-terms {
 
 /* Custom Styles Dual Citizen 2022 */
 
+/* Header */ 
+
+
+/* Navigation */
+.mega-menu__title.heading {
+  color: black;
+  text-transform: none;
+
+}
+
 /* Homepage sections */
 
 /* variables */
@@ -15031,6 +15041,21 @@ shopify-payment-terms {
   padding-top: 20px;
   padding-bottom: 10px;
 }
+
+.weglot-container {
+  margin-right: 1rem
+}
+
+.weglot-container .country-selector a {
+  color:var(--root-text-color) !important;
+  font-size: 1.05rem;
+}
+
+/*
+.breadcrumb__item {
+  display: none;
+}
+*/
 
 /* buttons */
 a.button, button, button.shopify-payment-button__button.shopify-payment-button__button--unbranded  {
@@ -15106,6 +15131,11 @@ product-meta > div.product-meta__price-list-container > div.price-list > span.pr
 }
 
 /* product tabs */
+tabs-nav  button.tabs-nav__item {
+  color: black;
+  text-transform: none;
+}
+
 .product-tabs__tab-item-wrapper {
   font-size: x-large;
 }
