@@ -6,13 +6,13 @@
         "166022743551fae7e6-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kopie_von_NEW_IN_-_STARTSEITE_4.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_NEW_IN_-_STARTSEITE_1199_x_1321_px_1.jpg",
+            "image": "shopify:\/\/shop_images\/NEW_IN_-_STARTSEITE_8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/NEW_IN_-_STARTSEITE_1199_x_1321_px_2.jpg",
             "text_position": "bottom_right",
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "https:\/\/langerchen.com\/collections\/new-arrivals",
+            "button_1_link": "shopify:\/\/collections\/women-wool-styles",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -34,33 +34,54 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "1660829132af2e832f": {
-      "type": "custom-html",
-      "disabled": true,
+    "16584160569a2a40f4": {
+      "type": "slideshow",
+      "blocks": {
+        "165841605615ebfe67-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_137faa58-a433-4f46-9c02-faa75222f6bd.jpg",
+            "split_image": "shopify:\/\/shop_images\/2_db5c567a-29c5-431d-81d0-a4dc0a3fd8a0.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1800_x_800_px_2160_x_1080_px_1199_x_1321_px_4.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "DISCOVER WOMEN",
+            "button_1_link": "shopify:\/\/collections\/new-arrivals-women",
+            "button_2_text": "DISCOVER MEN",
+            "button_2_link": "shopify:\/\/collections\/new-arrivals-men",
+            "text_color": "#ffffff",
+            "button_background": "#fdfdfd",
+            "button_text_color": "#727171",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "165841605615ebfe67-0"
+      ],
       "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
       }
     },
     "165842633712969d7a": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "1658426337643a3621-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NEW_IN_-_STARTSEITE_6_3db162df-70ce-49ca-be5d-efc9f908270e.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/NEW_IN_-_STARTSEITE_1199_x_1321_px_1.jpg",
+            "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_7.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1199_x_1321_px.jpg",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "https:\/\/langerchen.com\/collections\/summer-sale",
+            "button_1_link": "shopify:\/\/products\/c072bw06-langerchen-coat-nicollet-black",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -82,86 +103,19 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "16540015621920555f": {
+    "16590105675174e070": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
-        "16540015625f72feea-0": {
+        "1659010567af6a0735-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Header_Desktop_09.06._1800_x_800_px_1800_x_900_px_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/Header_Desktop_09.06._1800_x_800_px_1800_x_900_px_1199_x_1321_px.png",
+            "image": "shopify:\/\/shop_images\/Kopie_von_NEW_IN_-_STARTSEITE_8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_NEW_IN_-_STARTSEITE_1199_x_1321_px_1_7c6af0ae-bfd3-4c6c-86f9-0433fa79fbc8.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "",
-            "button_1_text": "WOMEN",
-            "button_1_link": "https:\/\/langerchen.com\/collections\/div-style-text-align-center-rainwear",
-            "button_2_text": "MEN",
-            "button_2_link": "",
-            "text_color": "#bc886f",
-            "button_background": "#f5f5f5",
-            "button_text_color": "#bc886f",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "16540015625f72feea-0"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 4,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "165824379283a7a170": {
-      "type": "featured-collections",
-      "disabled": true,
-      "blocks": {
-        "3b2e378f-f2ec-4e8d-aeb8-266f044624a4": {
-          "type": "collection",
-          "settings": {
-            "collection": "pouches",
-            "label": "",
-            "button_text": "See all Pouches",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "3b2e378f-f2ec-4e8d-aeb8-266f044624a4"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "products_count": 4,
-        "products_per_row": 4,
-        "stack_products": true,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "1659015523c6a3bdfd": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "16590155238bb18596-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Kopie_von_Header_Desktop_09.06._1800_x_900_px_2160_x_1080_px_1800_x_800_px_1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_Header_Desktop_09.06._1800_x_900_px_1199_x_1321_px.jpg",
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "",
             "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/pouches",
+            "button_1_link": "shopify:\/\/products\/c070ff01-langerchen-coat-lorane-jade",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -173,7 +127,7 @@
         }
       },
       "block_order": [
-        "16590155238bb18596-1"
+        "1659010567af6a0735-1"
       ],
       "settings": {
         "section_height": "auto",
@@ -183,70 +137,25 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "1658415247afada0a1": {
-      "type": "slideshow",
-      "disabled": true,
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "16584160569a2a40f4": {
-      "type": "slideshow",
-      "blocks": {
-        "165841605615ebfe67-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_07f6621a-f061-48f4-8097-51fce7e3215a.jpg",
-            "split_image": "shopify:\/\/shop_images\/1_3708bcc5-f0c2-4fa0-acca-5c958258bb06.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1_7401c4aa-7575-444f-95fc-3f24601c083b.jpg",
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "Discover women",
-            "button_1_link": "shopify:\/\/collections\/new-arrivals-women",
-            "button_2_text": "Discover men",
-            "button_2_link": "shopify:\/\/collections\/new-arrivals-men",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "165841605615ebfe67-0"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "1663856694091242a9": {
+    "1663756596847301e2": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
-        "1663856694801d2334-0": {
+        "b425f005-a806-4732-95f0-c1f219044449": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_7.jpg",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_5_ef838819-54b0-4115-9b41-f63bf797eaa0.jpg",
             "tab_label": "Item",
-            "subheading": "100% Bio Wolle",
-            "title": "Coat Tallulah Check",
-            "content": "<p>Der Mantel aus Wollwalk präsentiert sich mit überschnittener Schulterpartie und offener Schnittkantenverarbeitung.<\/p><p>Der Jacquard Stoff aus reiner Bio-Wolle ist weich, voluminös und gut wärmend.<\/p>",
+            "subheading": "Woolen Check",
+            "title": "Jacket Chelan Check",
+            "content": "<p>Der kastige geschnittene Blouson reiht sich in die aktuell<br\/>sehr lockeren Silhouetten ein. Das große Karo lockert die Flächen gekonnt auf. <br\/>Die kurze Länge steht jeder Körpergröße gut.<\/p><p>Ärmelriegel, aufgesetzte Pattentaschen, ein großer Kentkragen und die großen Mantelköpfe aus Steinnuss prägen den Uniform-Stil der Jacke. <br\/>Die gekochte Wolle ist angenehm wärmend und verfügt über eine natürliche Wasserabweisung.<\/p>",
             "button_text": "Shop now",
-            "button_link": "https:\/\/langerchen.com\/products\/c030bj03-langerchen-coat-tallulah-check-original"
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "1663856694801d2334-0"
+        "b425f005-a806-4732-95f0-c1f219044449"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -257,103 +166,70 @@
         "cycle_speed": 8,
         "accent_background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
+        "button_background": "#9c9e9f",
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "1663848295ddfc7e79": {
+    "1663762942dc4e51e9": {
+      "type": "slideshow",
+      "blocks": {
+        "16637629422006b5e3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_9.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1199_x_1321_px_2_9dc88e7f-f41d-4f19-b7b2-bf09c96c83c2.jpg",
+            "text_position": "bottom_left",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/j585bw20-langerchen-jacket-linwood-carbon",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "16637629422006b5e3-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1663749880ad18f31a": {
       "type": "image-with-text-overlay",
       "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_0fd98f40-5645-428c-9093-44f90d5d25f2.jpg",
-        "subheading": "100% Bio WOlle",
-        "title": "Coat Tallulah Check",
-        "content": "<p>Der Mantel aus Wollwalk präsentiert sich mit überschnittener Schulterpartie und offener Schnittkantenverarbeitung.<\/p><p>Der Jacquard Stoff aus reiner Bio-Wolle ist weich, voluminös und gut wärmend.<\/p>",
-        "button_text": "Shop this Style",
-        "button_link": "https:\/\/langerchen.com\/products\/c030bj03-langerchen-coat-tallulah-check-original",
+        "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_5.jpg",
+        "subheading": "Woolen Check",
+        "title": "Jacket Chelan Check",
+        "content": "<p>Der kastige geschnittene Blouson reiht sich in die aktuell<br\/>sehr lockeren Silhouetten ein. Das große Karo lockert die Flächen gekonnt auf. <br\/>Die kurze Länge steht jeder Körpergröße gut.<\/p><p>Ärmelriegel, aufgesetzte Pattentaschen, ein großer Kentkragen und die großen Mantelköpfe aus Steinnuss prägen den Uniform-Stil der Jacke. <br\/>Die gekochte Wolle ist angenehm wärmend und verfügt über eine natürliche Wasserabweisung.<\/p>",
+        "button_text": "Shop now",
+        "button_link": "",
         "link_style": "button",
         "background_type": "full_width",
         "text_width": "medium",
-        "text_position": "middle_right",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
+        "text_position": "middle_left",
+        "text_color": "#8e8c8c",
+        "button_background": "#8e8c8c",
+        "button_text_color": "#ffffff",
+        "overlay_color": "#8e8c8c",
         "overlay_opacity": 0
-      }
-    },
-    "1661860717bb56af45": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "166186071706639530-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_6.png",
-            "tab_label": "Item",
-            "subheading": "VEGAN WAXED",
-            "title": "Parka Stockton (Military waxed)",
-            "content": "<p>Vielseitiger Klassiker und perfekter Begleiter für das ganze Jahr. <br\/>Das dicht gewebte Zelttuch des Military-Parkas bildet eine schützende Hülle, die locker genug sitzt für einen wärmenden Unterzieher.<\/p><p>Die leichte A-Linie, eine bequeme Ärmelanlage und funktionale Details wie die pflanzliche Wachsimprägnierung runden das lässige Design ab.<\/p>",
-            "button_text": "Shop Now",
-            "button_link": "shopify:\/\/products\/j593co06-langerchen-parka-stockton-military-waxed"
-          }
-        }
-      },
-      "block_order": [
-        "166186071706639530-0"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "right",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "16584217150f3c1dfe": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "16584217159b9184fb-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_Kopie_2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1_06ba09f6-cf96-47cf-b7a9-828cdd1e9702.jpg",
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/new-arrivals-men",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "16584217159b9184fb-0"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
       }
     },
     "165841561150c68a40": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "165841561193a48f93-0": {
           "type": "image",
@@ -388,17 +264,18 @@
     },
     "1661935195b910dc59": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1661935195bba4efdc-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_9.jpg",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_7.png",
             "tab_label": "Item",
-            "subheading": "100% recyceltes Polyester",
-            "title": "Vest Danville",
-            "content": "<p>Egal ob lässig über einem Hoodie oder elegant über dem liebsten Wollmantel, die leichte Weste ist das perfekte Layering-Piece für die kalte Jahreszeit. Nur recycled Polyester - MONO Material - daher leicht recyclebar!<\/p>",
+            "subheading": "",
+            "title": "Vest Danville (Brass)",
+            "content": "<p>Die überlange Daunenweste wärmt mit ihrer veganen Faserfüllung aus 100% recycelten PET Flaschen. Das Obermaterial besteht ebenfalls aus recyceltem Polyester und ist mit einem wasserabstoßendem Finish veredelt.<\/p><p>Egal ob lässig über einem Hoodie oder elegant über dem liebsten Wollmantel, die leichte Weste ist das perfekte Layering-Piece für die kalte Jahreszeit. Nur recycled Polyester - MONO Material - daher leicht recyclebar!<\/p>",
             "button_text": "Shop now",
-            "button_link": "https:\/\/langerchen.com\/products\/v003rp01-langerchen-vest-danville-black"
+            "button_link": "https:\/\/langerchen.com\/products\/v003rp01-langerchen-vest-danville-brass"
           }
         }
       },
@@ -414,273 +291,6 @@
         "cycle_speed": 8,
         "accent_background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "166385719364dc5b01": {
-      "type": "image-with-text",
-      "blocks": {
-        "1663857193c68c73f6-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_11.jpg",
-            "tab_label": "Item",
-            "subheading": "91% recyceltes Nylon \/ 9% Elastane",
-            "title": "Vest Mason",
-            "content": "<p>Mit drei großen aufgesetzen Taschen und dem abgerundetem Saum macht diese relaxed fit Weste eine gute Figur auf grobem Herbststrick. Oder als Midlayer getragen, sorgt sie mit ihrer Faserfüllung aus recycled PET Flaschen für angenehme Wärme.<\/p>",
-            "button_text": "Shop now",
-            "button_link": "https:\/\/langerchen.com\/products\/v501ny01-langerchen-vest-mason-brass"
-          }
-        }
-      },
-      "block_order": [
-        "1663857193c68c73f6-0"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "right",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "166185914029cd803c": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1661859140c9716721-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_4.jpg",
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "Jacket Chelan (Oliv)",
-            "content": "<p>Der kastige geschnittene Blouson reiht sich in die aktuell sehr lockeren Silhouetten ein. Die kurze Länge steht jeder Körpergröße gut.<\/p><p>Ärmelriegel, aufgesetzte Pattentaschen, ein großer Kentkragen und die großen Mantelköpfe aus Steinnuss prägen den Uniform-Stil der Jacke. Die gekochte Wolle ist angenehm wärmend und verfügt über eine natürliche Wasserabweisung.<\/p>",
-            "button_text": "Shop now",
-            "button_link": "https:\/\/langerchen.com\/products\/j148bw20-langerchen-jacket-chelan-oliv"
-          }
-        }
-      },
-      "block_order": [
-        "1661859140c9716721-0"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "16590105675174e070": {
-      "type": "slideshow",
-      "blocks": {
-        "1659010567af6a0735-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1800_x_800_px_2160_x_1080_px_1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1800_x_800_px_2160_x_1080_px_1199_x_1321_px.jpg",
-            "text_position": "bottom_center",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "WOMEN STYLES",
-            "button_1_link": "shopify:\/\/collections\/summer-sale-women",
-            "button_2_text": "MEN STYLES",
-            "button_2_link": "shopify:\/\/collections\/summer-sale-men",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "1659010567af6a0735-1"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "165649830741e02fac": {
-      "type": "custom-html",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "<style>\n\np {\nfont-size: 3rem;\nfont-weight: 300;\ntext-align: left;\nwidth: 58%;\nline-height: 1.2;\nletter-spacing: -.8px;\n}\n@media screen and (max-width: 799px) {\np {\nwidth: fit-content;\n}\n}\n\n<\/style><p>At vero eos et\naccusam et justo duo dolores et\nea rebum.\nWie bitte? Wherever you go –\nLorem ipsum dolor sit amet,\nconsetetur sadipscing elitr, sed\ndiam nonumy eirmod tempor<\/p>",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "1656592756dee382b0": {
-      "type": "dc-featured-collections",
-      "disabled": true,
-      "blocks": {
-        "16565927560976ad4d-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "navy-forever",
-            "label": "All",
-            "button_text": "",
-            "button_url": ""
-          }
-        },
-        "43896fc7-8050-4395-934c-68e0a43b0c03": {
-          "type": "collection",
-          "settings": {
-            "collection": "navy-forever-women",
-            "label": "Women",
-            "button_text": "",
-            "button_url": ""
-          }
-        },
-        "9eea40b1-d6e0-452b-8398-df690f218136": {
-          "type": "collection",
-          "settings": {
-            "collection": "navy-forever-women",
-            "label": "Men",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "16565927560976ad4d-0",
-        "43896fc7-8050-4395-934c-68e0a43b0c03",
-        "9eea40b1-d6e0-452b-8398-df690f218136"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Navy Forever",
-        "content": "",
-        "products_count": 4,
-        "products_per_row": 4,
-        "stack_products": true,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "165842544601d09b1d": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "16584254464aab45a2-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Header_Desktop_09.06._1800_x_800_px_1800_x_900_px_1199_x_1321_px_1080_x_1080_px_1.jpg",
-            "split_image": "shopify:\/\/shop_images\/Header_Desktop_09.06._1800_x_800_px_1800_x_900_px_1199_x_1321_px_1080_x_1080_px_2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Header_Desktop_09.06._1800_x_800_px_1800_x_900_px_1199_x_1321_px_1080_x_1080_px_1000_x_1400_px.jpg",
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "The Blazers",
-            "button_1_link": "https:\/\/langerchen.com\/collections\/the-blazers",
-            "button_2_text": "Summer Parkas",
-            "button_2_link": "https:\/\/langerchen.com\/collections\/summer-parkas-2",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 5
-          }
-        }
-      },
-      "block_order": [
-        "16584254464aab45a2-0"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "165400323037662882": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "16540032303a0869c2-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/04.jpg",
-            "split_image": "shopify:\/\/shop_images\/04_2.jpg",
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "Organic Cotton Twill",
-            "button_1_text": "Discover women",
-            "button_1_link": "",
-            "button_2_text": "Discover men",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10
-          }
-        }
-      },
-      "block_order": [
-        "16540032303a0869c2-0"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": false,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "165400454278f2b729": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "165400454204b61f0d-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/05_2.jpg",
-            "tab_label": "",
-            "subheading": "",
-            "title": "Wie bitte? Wherever you go – Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-            "content": "",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "165400454204b61f0d-0"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "right",
-        "text_alignment": "center",
-        "cycle_speed": 3,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "{{ shop.brand.colors.primary[0].background }}",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
@@ -719,55 +329,18 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
-    },
-    "1663856045224889dc": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_4.jpg",
-        "subheading": "100% recyceltes Polyester",
-        "title": "Vest Danville",
-        "content": "<p>Egal ob lässig über einem Hoodie oder elegant über dem <br\/>liebsten Wollmantel, die leichte Weste ist das perfekte Layering-Piece für die kalte Jahreszeit. <\/p><p>Nur recycled Polyester - MONO Material - daher leicht recyclebar!<\/p>",
-        "button_text": "Shop this Style",
-        "button_link": "https:\/\/langerchen.com\/products\/v003rp01-langerchen-vest-danville-black",
-        "link_style": "button",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "middle_left",
-        "text_color": "#494848",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     }
   },
   "order": [
     "16602274356b3c728b",
-    "1660829132af2e832f",
-    "165842633712969d7a",
-    "16540015621920555f",
-    "165824379283a7a170",
-    "1659015523c6a3bdfd",
-    "1658415247afada0a1",
     "16584160569a2a40f4",
-    "1663856694091242a9",
-    "1663848295ddfc7e79",
-    "1661860717bb56af45",
-    "16584217150f3c1dfe",
+    "165842633712969d7a",
+    "16590105675174e070",
+    "1663756596847301e2",
+    "1663762942dc4e51e9",
+    "1663749880ad18f31a",
     "165841561150c68a40",
     "1661935195b910dc59",
-    "166385719364dc5b01",
-    "166185914029cd803c",
-    "16590105675174e070",
-    "165649830741e02fac",
-    "1656592756dee382b0",
-    "165842544601d09b1d",
-    "165400323037662882",
-    "165400454278f2b729",
-    "16565042244340630b",
-    "1663856045224889dc"
+    "16565042244340630b"
   ]
 }
