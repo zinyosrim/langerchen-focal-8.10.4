@@ -15079,7 +15079,7 @@ div.shopify-section--rich-text {
 
 /* section spacers, all except top first */
 [id^=shopify-section-template--]:not(:first-child):not(:nth-child(2)) {
-  margin-top: 4rem!important;
+  margin-top: 0rem!important;
 }
 
 /* multicolumn title */
