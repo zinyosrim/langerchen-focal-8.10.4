@@ -15013,6 +15013,9 @@ shopify-payment-terms {
 
 /* Header */ 
 
+.heading--small {
+  font-size: 1.4rem;
+}
 
 /* Navigation */
 .mega-menu__title.heading {
@@ -15028,6 +15031,18 @@ shopify-payment-terms {
   /*--ci-color: #CA9E62;*/
   --button-height: 72px; 
   --section-block-background: transparent;
+}
+
+.shopify-section .button--primary {
+  font-size: 1.7rem;
+}
+
+@media screen and (max-width: 740px) {
+  .shopify-section .button--primary {
+    font-size: 1.0rem;
+
+line-height: 2rem;
+  }
 }
 
 /* announcement bar */
@@ -15064,6 +15079,8 @@ a.button, button, button.shopify-payment-button__button.shopify-payment-button__
 button#AddToCart {
   /*width: fit-content;*/
 }
+
+
 
 #MainPaymentContainer {
   margin-top: 3rem;

@@ -1,18 +1,128 @@
 {
   "sections": {
+    "16584160569a2a40f4": {
+      "type": "slideshow",
+      "blocks": {
+        "165841605615ebfe67-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_5171cbdb-fc13-4af6-849b-cfebd34dbd89.jpg",
+            "split_image": "shopify:\/\/shop_images\/2_6dd43480-ed70-481f-a47c-b030c14c35e1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1800_x_800_px_2160_x_1080_px_1199_x_1321_px_6.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "WOMEN",
+            "button_1_link": "shopify:\/\/collections\/all-women",
+            "button_2_text": "MEN",
+            "button_2_link": "shopify:\/\/collections\/all-men",
+            "text_color": "#ffffff",
+            "button_background": "#575756",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "165841605615ebfe67-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "7cc3ada6-2427-4ec7-ac5b-6393c0169d6f": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16184846024968__7cc3ada6-2427-4ec7-ac5b-6393c0169d6f-1667399578b4371317-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "woolen-coats",
+            "image": "shopify:\/\/shop_images\/Kein_Titel_1100_x_1400_px_12.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Woolen Coats",
+            "link_url": "shopify:\/\/collections\/woolen-coats",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16184846024968__7cc3ada6-2427-4ec7-ac5b-6393c0169d6f-1667399578b4371317-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "parkas",
+            "image": "shopify:\/\/shop_images\/Kein_Titel_1100_x_1400_px_11.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Parkas",
+            "link_url": "shopify:\/\/collections\/parkas",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "c63717c1-c748-4cb1-91d8-3af1a0a28383": {
+          "type": "collection",
+          "settings": {
+            "collection": "puffers",
+            "image": "shopify:\/\/shop_images\/Kein_Titel_1100_x_1400_px_14.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Puffers",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16184846024968__7cc3ada6-2427-4ec7-ac5b-6393c0169d6f-1667399578b4371317-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "vests",
+            "image": "shopify:\/\/shop_images\/Kein_Titel_1100_x_1400_px_13.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "Vests",
+            "link_url": "shopify:\/\/collections\/vests",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--16184846024968__7cc3ada6-2427-4ec7-ac5b-6393c0169d6f-1667399578b4371317-3",
+        "template--16184846024968__7cc3ada6-2427-4ec7-ac5b-6393c0169d6f-1667399578b4371317-1",
+        "c63717c1-c748-4cb1-91d8-3af1a0a28383",
+        "template--16184846024968__7cc3ada6-2427-4ec7-ac5b-6393c0169d6f-1667399578b4371317-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "16602274356b3c728b": {
       "type": "slideshow",
       "blocks": {
         "166022743551fae7e6-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NEW_IN_-_STARTSEITE_8.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/NEW_IN_-_STARTSEITE_1199_x_1321_px_2.jpg",
+            "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1800_x_800_px_2160_x_1080_px_5.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_NEW_IN_-_STARTSEITE_1800_x_800_px_2160_x_1080_px_1199_x_1321_px_1_d3fd0256-a35c-4665-9d7d-5c7bd6b6043e.jpg",
             "text_position": "bottom_right",
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/women-wool-styles",
+            "button_1_link": "shopify:\/\/collections\/vests",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -34,32 +144,31 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "16584160569a2a40f4": {
+    "16590105675174e070": {
       "type": "slideshow",
       "blocks": {
-        "165841605615ebfe67-0": {
+        "1659010567af6a0735-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_137faa58-a433-4f46-9c02-faa75222f6bd.jpg",
-            "split_image": "shopify:\/\/shop_images\/2_db5c567a-29c5-431d-81d0-a4dc0a3fd8a0.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1800_x_800_px_2160_x_1080_px_1199_x_1321_px_4.jpg",
-            "text_position": "middle_center",
+            "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_12.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1199_x_1321_px_5.jpg",
+            "text_position": "bottom_center",
             "subheading": "",
             "title": "",
-            "button_1_text": "DISCOVER WOMEN",
-            "button_1_link": "shopify:\/\/collections\/new-arrivals-women",
-            "button_2_text": "DISCOVER MEN",
-            "button_2_link": "shopify:\/\/collections\/new-arrivals-men",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/j074co06-langerchen-jacket-ottawa-bp-military-waxed",
+            "button_2_text": "",
+            "button_2_link": "",
             "text_color": "#ffffff",
-            "button_background": "#fdfdfd",
-            "button_text_color": "#727171",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "165841605615ebfe67-0"
+        "1659010567af6a0735-1"
       ],
       "settings": {
         "section_height": "auto",
@@ -71,6 +180,7 @@
     },
     "165842633712969d7a": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "1658426337643a3621-0": {
           "type": "image",
@@ -94,40 +204,6 @@
       },
       "block_order": [
         "1658426337643a3621-0"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "16590105675174e070": {
-      "type": "slideshow",
-      "blocks": {
-        "1659010567af6a0735-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Kopie_von_NEW_IN_-_STARTSEITE_8.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Kopie_von_NEW_IN_-_STARTSEITE_1199_x_1321_px_1_7c6af0ae-bfd3-4c6c-86f9-0433fa79fbc8.jpg",
-            "text_position": "bottom_center",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "shopify:\/\/products\/c070ff01-langerchen-coat-lorane-jade",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "1659010567af6a0735-1"
       ],
       "settings": {
         "section_height": "auto",
@@ -172,6 +248,7 @@
     },
     "1663762942dc4e51e9": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "16637629422006b5e3-0": {
           "type": "image",
@@ -301,19 +378,19 @@
         "165650422408e0b47d-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/06.jpg",
-            "split_image": "shopify:\/\/shop_images\/07.jpg",
+            "image": "shopify:\/\/shop_images\/2_84731f12-f8b6-46f9-998c-3bcfba0e12a9.jpg",
+            "split_image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1800_x_800_px_2160_x_1080_px_1199_x_1321_px.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_ORGANIC_COTTON_TWILL_-_desktop_1199_x_1321_px.jpg",
             "text_position": "bottom_center",
             "subheading": "",
             "title": "",
-            "button_1_text": "Wie wir arbeiten",
-            "button_1_link": "https:\/\/langerchen.com\/pages\/fair",
-            "button_2_text": "Verantwortung, die wir haben",
-            "button_2_link": "shopify:\/\/pages\/material-eco",
+            "button_1_text": "Nachhaltigkeit",
+            "button_1_link": "shopify:\/\/pages\/material-eco",
+            "button_2_text": "Wie wir arbeiten",
+            "button_2_link": "https:\/\/langerchen.com\/pages\/fair",
             "text_color": "#ffffff",
-            "button_background": "#9c9e9f",
-            "button_text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#7ea649",
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0
           }
@@ -332,10 +409,11 @@
     }
   },
   "order": [
-    "16602274356b3c728b",
     "16584160569a2a40f4",
-    "165842633712969d7a",
+    "7cc3ada6-2427-4ec7-ac5b-6393c0169d6f",
+    "16602274356b3c728b",
     "16590105675174e070",
+    "165842633712969d7a",
     "1663756596847301e2",
     "1663762942dc4e51e9",
     "1663749880ad18f31a",

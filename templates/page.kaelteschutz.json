@@ -8,40 +8,95 @@
         "page_width": "medium"
       }
     },
-    "165763198140b07a71": {
-      "type": "image-with-text-overlay",
+    "ef38353c-0c19-4b40-b2f9-42f65a343bdf": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16191314526472__ef38353c-0c19-4b40-b2f9-42f65a343bdf-166850610318ba534f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1800_x_800_px_2160_x_1080_px_2160_x_800_px_2_beeddf2a-ed8a-4c04-95cc-b101a542c84f.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "Kälteschutz",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--16191314526472__ef38353c-0c19-4b40-b2f9-42f65a343bdf-166850610318ba534f-0"
+      ],
       "settings": {
-        "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Kopie_von_Kopie_von_NEW_IN_-_STARTSEITE_1800_x_800_px_2160_x_1080_px_3.jpg",
-        "subheading": "",
-        "title": "Cold Sensation Scale",
-        "content": "",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "middle_center",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 20
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
       }
     },
-    "165763107177ab4cfe": {
-      "type": "rich-text",
+    "b3a9506d-8f83-4dcd-b25d-1a6ea7768ad6": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16191314526472__b3a9506d-8f83-4dcd-b25d-1a6ea7768ad6-166850609657fbb6d1-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-11-15_um_10.58.13.png",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Cold Sensation Scale",
+            "content": "<p>Das Kälteempfinden ist von Mensch zu Mensch unterschiedlich stark ausgeprägt. Wir haben mit unserem Cold-Sensation-Scale eine Übersicht geschaffen, die dir eine Richtlinie  über den variierenden Kälteschutz unserer verschiedenen Styles vermittelt.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16191314526472__b3a9506d-8f83-4dcd-b25d-1a6ea7768ad6-166850609657fbb6d1-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1c26dd63-0793-4a69-adb8-996483688cb4": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16191314526472__1c26dd63-0793-4a69-adb8-996483688cb4-166850597499bc4e19-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "keeps-you-warm-women",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16191314526472__1c26dd63-0793-4a69-adb8-996483688cb4-166850597499bc4e19-0"
+      ],
       "settings": {
         "subheading": "",
-        "title": "",
-        "content": "<p>LangerChen ist als nachhaltiges Modelabel gegründet worden. Wir setzen uns von der ersten Stunde an für eine umweltfreundliche Kollektion ein. Ein Wandel der Branche liegt uns sehr am Herzen.<\/p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "large",
-        "text_position": "center",
-        "text_alignment": "center",
+        "title": "Styles für kaltes Wetter",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
@@ -51,7 +106,8 @@
   },
   "order": [
     "main",
-    "165763198140b07a71",
-    "165763107177ab4cfe"
+    "ef38353c-0c19-4b40-b2f9-42f65a343bdf",
+    "b3a9506d-8f83-4dcd-b25d-1a6ea7768ad6",
+    "1c26dd63-0793-4a69-adb8-996483688cb4"
   ]
 }

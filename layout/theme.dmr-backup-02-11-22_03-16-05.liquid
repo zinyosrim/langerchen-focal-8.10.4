@@ -6,37 +6,50 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
   all events, dependencies...) in the "custom.js" file, located in the Assets folder.
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
+
 <!doctype html>
+
 {%- assign direction = 'ltr' -%}
 {%- case request.locale.iso_code -%}
   {%- when 'ar' or 'arc' or 'dv' or 'fa' or 'ha' or 'he' or 'kwh' or 'ks' or 'ku' or 'ps' or 'ur' or 'yi' -%}
     {%- assign direction = 'rtl' -%}
 {%- endcase -%}
+
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ direction }}">
-  <head>{% render "load-metafields" %}
+  <head>
+{% include "load-metafields" %}
+
     {% include 'kiwiSizing' %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="{{ settings.header_background }}">
+
     <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% endif %}</title>
+
     {%- if page_description -%}
       <meta name="description" content="{{ page_description | escape }}">
     {%- endif -%}
+
     <link rel="canonical" href="{{ canonical_url }}">
+
     {%- if settings.favicon -%}
       <link rel="shortcut icon" href="{{ settings.favicon | img_url: '96x96' }}" type="image/png">
     {%- endif -%}
+
     {%- comment -%}Few prefech to increase performance on commonly used third-parties{%- endcomment -%}
     <link rel="preconnect" href="https://cdn.shopify.com">
     <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
     {%- unless settings.heading_font.system? and settings.text_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
+
     {%- comment -%}Preload important resources{%- endcomment -%}
     <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
     <link rel="preload" as="script" href="{{ 'vendor.js' | asset_url }}">
     <link rel="preload" as="script" href="{{ 'theme.js' | asset_url }}">
+
     {%- comment -%}
       IMPLEMENTATION NOTE: for improving performance, Focal tries to preload images on known pages (such as blog page,
       product or collection pages). In order to keep a main JS file size minimal, the theme also lazyloads non-essential
@@ -44,8 +57,10 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
     {%- endcomment -%}
     {%- if request.page_type == 'product' -%}
       {%- assign selected_media = product.selected_variant.featured_media | default: product.featured_media -%}
+
       <link rel="preload" as="fetch" href="{{ product.url }}.js" crossorigin>
       <link rel="preload" as="image" imagesizes="(max-width: 999px) calc(100vw - 48px), 640px" imagesrcset="{% render 'image-attributes', image: selected_media, sizes: '400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800', sizes_only: true %}">
+
       {%- if product.media.size > 1 -%}
         <link rel="preload" as="script" href="{{ 'flickity.js' | asset_url }}">
       {%- endif -%}
@@ -53,36 +68,32 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
       <link rel="preload" as="image" media="(max-width: 740px)" imagesizes="100vw" imagesrcset="{% render 'image-attributes', image: collection.image, sizes: '400,500,600,700,800,900,1000', height_constraint: 600, crop: 'center', sizes_only: true %}">
       <link rel="preload" as="image" media="(min-width: 741px)" imagesizes="100vw" imagesrcset="{% render 'image-attributes', image: collection.image, sizes: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600', sizes_only: true %}">
     {%- endif -%}
+
     {% render 'social-meta-tags' %}
     {% render 'microdata-schema' %}
     {% render 'css-variables', direction: direction %}
     {% render 'js-variables', direction: direction %}
+
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+
     <script src="{{ 'vendor.js' | asset_url }}" defer></script>
     <script src="{{ 'theme.js' | asset_url }}" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
+
     {{shop.metafields.EWD_ULB.ULB_Options_Output}} 
  {{ content_for_header }}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script type="text/javascript">var webyzeMultiProductColorsRunningCall=!1,webyzeMultiProductColorsQueuedCall=!1;window.webyzeMultiProductColorsLoad=function(){var a,o=(a={'"':"&quot;","&":"&amp;","<":"&lt;",">":"&gt;"},function(t){return t.replace(/[\"&<>]/g,function(t){return a[t]})}),e=$(".webyze-multi-product-colors:not(.webyze-loaded)").map(function(){return $(this).attr("data-product-id")}).get();e&&0!=e.length&&(webyzeMultiProductColorsRunningCall?webyzeMultiProductColorsQueuedCall=!0:(webyzeMultiProductColorsQueuedCall=!(webyzeMultiProductColorsRunningCall=!0),$.ajax({method:"GET",url:"https://s-pc.webyze.com/ProductColors/multi-productGroups-"+Shopify.shop.split(".")[0]+".json?"+e.map(t=>"&prodId[]="+t).join(""),dataType:"json"}).done(function(t){Array.isArray(t)&&(t.forEach(function(t){var a;Array.isArray(t)&&(t.map(function(t){return t.id}),a="",t.forEach(function(t){if(a+='<span class="swatchProductColor swatchType_'+t.type+'" data-id="'+t.id+'" data-name="'+o(t.name)+'" data-handle="'+o(t.handle)+'" data-image="'+o(t.image)+'">',window.webyzeProductColors_useProdImage)a+="<div style=\"background-image: url('"+t.image.replace(/\.(png|jpg|jpeg|bmp)/,window.webyzeProductColors_prodImageLarge?"_large.$1":"_small.$1")+"');background-size: cover;\"></div>";else switch(t.type){case"two_colors":t.data=t.data.split("|"),a+='<div><div style="background:'+t.data[0]+';"></div><div style="background:'+t.data[1]+';"></div></div>';break;case"image":a+="<div style=\"background-image: url('https://s-pc.webyze.com/ProductColors/uploads/"+t.data+"');\"></div>";break;default:a+='<div style="background:'+t.data+';"></div>'}a+='<span class="webyzeTooltip"><span></span><span class="innerText">'+o(t.name)+"</span><span></span></span></span>"}),$(t.map(function(t){return'.webyze-multi-product-colors[data-product-id="'+t.id+'"]'}).join(", ")).addClass("webyze-loaded").html(a))}),$(".webyze-multi-product-colors").each(function(t){var a=$(this);a.find('[data-id="'+a.attr("data-product-id")+'"]').addClass("currentSwatch")}).find(".swatchProductColor").on("click",function(t){t.preventDefault(),window.location.href="/products/"+$(this).data("handle")}).on("mouseenter",function(){var t=$(this).attr("data-image").replace(/\.(jpg|png|jpeg)/,"_large.$1");0===t.indexOf("https://")&&$(this).closest(".product-wrap, .product__thumbnail, .grid__item, .product__grid-item, .grid-item").find("img").attr("src",t).attr("srcset",t)}),$(e.map(function(t){return'.webyze-multi-product-colors[data-product-id="'+t+'"]'}).join(", ")).addClass("webyze-loaded"))}).fail(function(){}).always(function(){webyzeMultiProductColorsRunningCall=!1,webyzeMultiProductColorsQueuedCall&&window.webyzeMultiProductColorsLoad()})))};</script>
   {% render 'weglot_hreftags' %}
   {% render 'weglot_switcher' %}
-  <!-- Hotjar Tracking Code for https://langerchen.com/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3208672,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
  </head>
+
   {%- assign feature_classes = '' -%}
+
   {%- if settings.show_image_zoom -%}
     {% assign feature_classes = feature_classes | append: ' features--image-zoom' %}
   {%- endif -%}
+
   <body class="no-focus-outline {{ feature_classes }}" data-instant-allow-query-string>
     {%- comment -%}Common SVG definitions that we are re-using in several places{%- endcomment -%}
     <svg class="visually-hidden">
@@ -91,16 +102,20 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
         <stop offset="50%" stop-color="rgb(var(--product-star-rating))" stop-opacity="0.4" />
       </linearGradient>
     </svg>
+
     <a href="#main" class="visually-hidden skip-to-content">{{ 'general.accessibility.skip_to_content' | t }}</a>
     <loading-bar class="loading-bar"></loading-bar>
+
     {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
       {%- section 'announcement-bar' -%}
       {%- section 'popup' -%}
       {%- section 'header' -%}
+
       {%- unless settings.cart_type == 'page' or request.page_type == 'cart' -%}
         {%- section 'mini-cart' -%}
       {%- endunless -%}
     {%- endif -%}
+
     <div id="main" role="main" class="anchor">
       {%- comment -%}
       IMPLEMENTATION NOTE: on collection and search page, the theme was designed to show on mobile the filter bar and/or sort
@@ -109,11 +124,13 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
       {%- endcomment -%}
       {%- if request.page_type == 'collection' or request.page_type == 'search' -%}
         {%- assign active_filters_count = 0 -%}
+
         {%- if request.page_type == 'collection' -%}
           {%- assign filters = collection.filters -%}
         {%- else -%}
           {%- assign filters = search.filters -%}
         {%- endif -%}
+
         {%- for filter in filters -%}
           {%- if filter.type == 'list' -%}
             {%- assign active_filters_count = active_filters_count | plus: filter.active_values.size -%}
@@ -121,34 +138,42 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
             {%- assign active_filters_count = active_filters_count | plus: 1 -%}
           {%- endif -%}
         {%- endfor -%}
+
         {%- assign is_toolbar_collapsed = false -%}
+
         {%- if request.page_type == 'search' and search.results.first.object_type != 'product' and search.results_count > 0 -%}
           {%- assign is_toolbar_collapsed = true -%}
         {%- endif -%}
+
         <div id="mobile-facet-toolbar" class="mobile-toolbar {% if is_toolbar_collapsed %}is-collapsed{% endif %} hidden-lap-and-up">
           <button is="toggle-button" class="mobile-toolbar__item mobile-toolbar__item--filters {% if active_filters_count > 0 %}has-filters{% endif %}" aria-expanded="false" aria-controls="facet-filters" style="display: none">
             {%- render 'icon' with 'filters' -%}
             <span class="mobile-toolbar__item-label">{{- 'collection.general.filters' | t -}}</span>
           </button>
+
           <button is="toggle-button" class="mobile-toolbar__item mobile-toolbar__item--sort" aria-expanded="false" aria-controls="sort-by-popover" style="display: none">
             <span class="mobile-toolbar__item-label">{{- 'collection.general.sort_by' | t -}}</span>
             {%- render 'icon' with 'chevron' -%}
           </button>
         </div>
       {%- endif -%}
+
       {{ content_for_layout }}
 <script type="text/javascript">window.webyzeMultiProductColorsLoad();</script>
+
       {%- unless request.page_type == 'index' or request.page_type == 'password' or request.page_type == 'gift_card' -%}
         {%- section 'static-text-with-icons' -%}
         {%- section 'static-newsletter' -%}
       {%- endunless -%}
     </div>
+
     {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
       {%- section 'footer' -%}
     {%- endif -%}
   
+{% include "bc_banner" %}
+
 {% include 'appikon-pre-order-helper' %}{% render 'spurit_po2_theme_snippet' %}
 {% render 'preorder-now' %}
-  {% render 'spurit_dmr_theme_snippet' %}
-{% render "bc_banner" %}</body>
+  </body>
 </html>
